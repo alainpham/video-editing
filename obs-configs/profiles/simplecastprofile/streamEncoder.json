@@ -1,0 +1,7 @@
+{
+    "crf": 18,
+    "preset": "ultrafast",
+    "profile": "",
+    "rate_control": "CRF",
+    "tune": ""
+}
