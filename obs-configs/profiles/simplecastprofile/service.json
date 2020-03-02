@@ -2,8 +2,8 @@
     "settings": {
         "bwtest": false,
         "key": "",
-        "server": "auto",
-        "service": "Twitch"
+        "server": "",
+        "use_auth": false
     },
-    "type": "rtmp_common"
+    "type": "rtmp_custom"
 }
