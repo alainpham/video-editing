@@ -11,3 +11,7 @@ movflags=+faststart vcodec=libx265 acodec=flac preset=ultrafast x265-params=loss
 # intel quick sync
 
 vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=%quality acodec=flac
+
+# Preview renderint
+
+vf=format=nv12|vaapi,hwupload,scale_vaapi=w=1280:h=720 vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=28
