@@ -1,10 +1,16 @@
 for good quality artificial warm led light in office
 
-v4l2-ctl -d /dev/video2 -c exposure_auto=1 -c exposure_absolute=300 -c gain=20 -c sharpness=150 
-v4l2-ctl -d /dev/video2 -c white_balance_temperature_auto=0  -c white_balance_temperature=2700 
+v4l2-ctl -d /dev/video2 -c exposure_auto=1
+v4l2-ctl -d /dev/video2 -c exposure_auto=1 
+v4l2-ctl -d /dev/video2 -c exposure_absolute=300
+v4l2-ctl -d /dev/video2 -c gain=20
+v4l2-ctl -d /dev/video2 -c sharpness=150 
+v4l2-ctl -d /dev/video2 -c white_balance_temperature_auto=0
+v4l2-ctl -d /dev/video2 -c white_balance_temperature=2700 
 v4l2-ctl -d /dev/video2 -c focus_auto=0 
 v4l2-ctl -d /dev/video2 -c focus_absolute=0 
 v4l2-ctl -d /dev/video2 -c power_line_frequency=1
+
 
 for good quality artificial warm standard light.
 
