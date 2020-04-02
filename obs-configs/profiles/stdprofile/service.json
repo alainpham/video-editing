@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "bwtest": false,
+        "key": "live_503586869_hiGo1eEKczbeQ9qXyBEv3Ht9dbtOVk",
+        "server": "rtmp://live-cdg.twitch.tv/app",
+        "service": "Twitch"
+    },
+    "type": "rtmp_common"
+}

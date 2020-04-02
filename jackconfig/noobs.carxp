@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>0</BeatsPerMinute>
+ </Transport>
+
+ <!-- Noise repellent -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Noise repellent</Name>
+   <URI>https://github.com/lucianodato/noise-repellent</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Reduction amount</Name>
+    <Symbol>reduction</Symbol>
+    <Value>3.83999991416931</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Thresholds offset</Name>
+    <Symbol>offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Release</Name>
+    <Symbol>release</Symbol>
+    <Value>150</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Masking</Name>
+    <Symbol>masking</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Protect Transients</Name>
+    <Symbol>transient_protection</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Residual whitening</Name>
+    <Symbol>whitening</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Learn noise profile</Name>
+    <Symbol>noise_learn</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Adaptive noise learn</Name>
+    <Symbol>adaptive_noise_learn</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Reset noise profile</Name>
+    <Symbol>reset_noise_profile</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Residual listen</Name>
+    <Symbol>Residual_listen</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>https://github.com/lucianodato/noise-repellent#fftsize</Key>
+    <Value>AAQAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Float</Type>
+    <Key>https://github.com/lucianodato/noise-repellent#nwindow</Key>
+    <Value>AEA4RQ==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>https://github.com/lucianodato/noise-repellent#FFTp2</Key>
+    <Value>
+BAAAAAYAAABkn789z9DUPQTTgD1R94U+KlPrPgOPJT/B3PM+/xaEPYhgqT3uea49FWlWPTo7Wz0Oc4I9rPk8Pfngqj2c3bg9ZWS6PfOBZj1JS7E9vIypPUV6Mz7P2fE93zLHPUirhz3HVkA9mS8CPTlpVDxcXDk8aW1sPMvOfjyH3hE8YvUPPGc/9jt03uw79JSpO06UXTshXx87j48HO3dOFDuGeAA7zTSeOpa/qTpWQoE6phqoOkogvDrbIt06pwP2OkhTAjtL0SU7KsMQOyn/tTp1iYc6IrVmOtUoXToFayY6EkFXOv32IToy6js6v8HiOcvIxTkib+E5xI4sOn2KcDphHp86Rs+YOh6ygzpefmo6bx9HOsaVRjqn/js6NXPmOhO+LDuNiEA7qwMQOwcTyzr+Ltk6CwKpOtkf0zpSlnI6unToOlt/MzuftJY7+3zFO+fN2jvEA7A7DeGZOwFcdTvVq3I7flRTO4YVSztD/Ek7F9k2O1zWljvySXw72c1SOxpzIjs7qXA7WoaOO9VwJTuEXpg71fCKO5vzoDsOgNw73gHKO03p4jvFJvw7L+rBO+DUiTsEUfg6i6YMO9956jrSYyg7EsXoOqOlcTvhpoE71lR3O90/hjvFS7o74KOnOx6rsDsV1iA8X+jBO+i3sDtgIZg7fDe4O4CNFTwK8LA8dFuEPHuENTxcLwg8OkjkOyJhpDsoVoI75UKoO1zcBjyhj+E7CIDHO8PRbDt/jbI7Mk78OrkDJjsEO7M7qrscO0tkhzvctQY7z+6MOsuRpjrJGyQ72X47OzztAzscy1I7M5KOO5qmODtXVoU7E/6cO5HjoTvwdjM7/d5WO09cYztuO606Kp6LOtrXzjq2Y0o67XcVOoeY4DnRYcA5mn8cOp5PITqOzv45ZQ1FOlrfKDo0HhI6I7PoOQZphzmtL285x9CeOePf1Tndj/05hzHvOdhCGzqq/006OTIuOjUf7zlapjo67kYbOiXH9jkQL+M5L74GOnEIDzoEZg86+1B1OntbJDqFgC46cx4xOuH+NDqN7Ds62CLqOW6bBDpXLC86RQmeOikxqzpRS486TxesOqJU3zqu35s6clWlOka0rDq32uw6CTixOr/m5TpOrG868lqPOpFtmDoTjrs6YO8eO3asMzsHlyo7pw4KO2kfoToO53I6X6PhOmdDAzvJUqo6daqfOvjY3jqe1o46JBNVOuexXDqwQoc641BdOrWV1zmkLOg5Zt+cOUvVQTm/Ecw4dQvlOBRwazmisVk5XuI9ORX5wDgWYLc4cW4lOXTWDTlOIFs5KFo3OTAJbjkldDM5k03uOF/QQDm2AxI5OjeyORG57TrXxN45XhSDOdNm7jmCXHg5WdAvOdt6NThLgSo4LpQWOI2ejTlJtZA4MpBMOfFaWTmHRc85COAhOdyD0zjhigE5lTpeOXgFnDmDj6M55pltOToAgDkoo1o53QjmOJIQ8Dip6i85Sg+4OLIgvzhP70043uaTOGe+gjjzk7c4lN0COXJaPjkcEWA5eHxKOQ/bmTgjsQE6pKsCOi++3jggrwY5qTPgOIxB7jjorSg5UMPaOFGKrThfD/Q4gdjhOI22sTgYafI4b4E8OWKLBzk7RPs49qQ7OcEk6zjkjN44BKzyOCxBiDi7k3Y4xygYOX3sLDmYvJg40mGtODSN3zg54u04tm/6OFg65zgIGuc4Pm7YOJIXFzkwu/Y4ypLhOCsmMTnjB2Q5SsRZOZylczl3KmY51dTZOJ05FTm+8Qg5Q9sgOcnb+jiTNrc4BHU4OUKUCTkEFpQ43pkkOH08cziE7mM4M92NOJh7cTjQ/S44SpneOBKWXTi9Oj44o4LKOBQpFTli89M47bwUOHy+Hjj2bSw46Y2QOJ8kvjgFKp44VozBONzgOjhmG1A4jboxOL1lhDgos404lRrcONBD9zgKshk52w5cOZe6RDk/a/c4ObnROFxhxTjAIHA4gRh3OLJJbTjnhFY4wTKwOJfSlTiA8Jw4HzGOONa8eTh/IJQ4PAGQOCjYoDjLbOw41nLFOIzQjjgSTeE4aJnQOOWPujhHRkw55n/XOG83CTni+bw5uxE7Oc/1RTnvZ3o5FC1WObi5XDnYLlY5FyChObdhijm81r85PXbBOb6amTlaIKI5+eu5ObsC0DmJQMo59nsCOmwe+Dndx4s5GUaROcCtcjlqm4A5t9eOOUuahzlRuLc5gRKKOa/rgjmDlDU57WwUOWBY+zjsYCo5FSkLOf0c4zgZjhM5Ysb/OHrp3zjvtZA4cnblOEO/BznN2qw4872ROCcC2zj4HT05+wpEOa0Ujjm8UXc55WlcOeI+LzkX2CI5/K42OUi6BTngJSs5VfYbOU38dzmigFk5FrMNOd/XFjn60045IqwmOY4U+Tjav/w46u7XOIf3CDntrQo5hG5DOYDzMjmdJxM51qgMOdNrCDmVUhI5fjf6ON4wRDk/iBE5Ex8PObtA5zig9cM4jLYZOaOZCTk2xYg5ixlyOXb2Yjlr3IA5FKhbOWic9TiF94U5eGUJOQj1Mjna/nE5vCY4OXsfjDkSb6w5K/PCOfFPgznDL4o5t311Oc8QQzlpoUc5jzjsORFtrDk51po5S96qORhOkjlWInM5RmaVOan6mDn6T8Q5vUbQOblJrDkNyRM6/1jFOfryxDnaiKw5l3vFOeMmGTp4+Ac6OIKxOdJxKjp4wQs60f/aOdmS2jlVbAE6GdSzOV+vOTlz4OA5TbLSOc554zkr2SA6rQLnOQMlxzkhsJ45LtLzOQuMKzqtia45viO1ORqtvzls6NY5HbzpOf1SXjlvmk05/tKGOazytTl6i4A5eZIqOfWdFTkLczk5lCIjORsSHjmBiSQ5lsNOOa9JTDlBG0k5QTAXORruBDkG0d44NOOcOPY7nDh1NH842EFnOP9NYjjCPz84RSthODWdHziz3jc4bQgyOM6cWTiy6Rc4+RncN6e5Djg9WwY4JEkCOJjMBDh5cfw3MNQwOOlrJjgQIAI48Y4aODQjIjgVb+o3kos0OCKlLDgnHBM42S0DOPTIEjiUPfw3uF/IN1ef9jfrTSA4Rm8QODZE4zcdjQA4OS8GOC0Q6jf/CO83e5fZN7M1wDeuxMU3LYe9NxueCTggoQM4dcv+N9kSnDfHQKc3z7zYN84nDDjzd7A3KmDPN8XG4jeW95w3ud6sN3ffezd9SX83IHqrN0/2lzeCzJg3dB7BNw2ZEjifct03zxqeN5Gkgzfop103+ut2N+iHkjd4UY03KcxuNyp4mjcIdII32P40Ny8xszetn6E33vCTN6AqdDeOmII3+9lAN6zyaDeIt483+kVvN1o/djePcYE3uD2dN7f+mjdc50k3I9qbNxzKlTe85Wg3+ZqlN3xypjcx22E3EBE1N6Aobjf8SjU3gll1N46dmTdAZVg34OYvNxY7bDeEjpo310GfN1c9njdC/JA3KG11NzLoiDdTCKk3xcW4N3MagzcUcFo3jvqLN5lJhDf7eJE3ptShN/IaxzdTn5g3sQeDN1P0XTchg4g3Cv2qN5fpXjekVmM3OZxFN1QnvTfqWJU3qHV3N7b8nzfbi4M3HB6qN8u5nTe7qoM3dgFZN+I2mzd1vKY3v4t9N5XIxDey8IA3qPiPN6RChjfrZaU3ctbQN6ExvTf4H7Q31fy6N9AprTfmo7M3HDjENywPtjfI7W83l5OZN+Q2kTfB6G03QzyON/qNhjdnQaY3w0suN2E+RDdYQVs3jKsuN3LOKTdV5F43ETFKNzSVcjdV8YQ3VBbYNyGnkTfZG1o3COxsN2o5bTcR7JM3mROqNy20ijeJr6M3Md9RN8HheDeqnHo3ohpnN+1Mqzffzbc3CYSNN5NHuzdBZ7U3pKeLN5pjhzcIC2I3LnVwN1W4kDdu5qA3HU6YN5VEgDecpc83q1/MN0Kvwjf9c3E3UoCDNzLPvDcNIrA3btuTN2yN1jcJM5Q3u62fN9PTWTfbilw3ej2CN+Otnzd7v5k3/wBUN1/XQDckOFw3vC6GN5QqjTccA1Y3aBOhN1Q2nDdg2lI3EGtrN9UgpTeoRIU3bMmJNxHppTdK6ZA30AdzNyjRjjcD2lc3yj9yNw8jSDeg+Vg3SNRRN1R6UjeK4Tc3/7meNxMfizfrw4w3kmyINx5DqDfnFaA3b8+XN9lhoTc2CEw36gtsN/o9MzdwW0Q3QnGCN1fHeTeZdoM33q4cN7zXQzeykGc3pU92N9vHqzey3Xw3CjVuN2nznjfybT83rog/N+9YNDfgX043CUJ0NwQ9hDf+6z83oYB2N9pzcjdIdkE368c6N2fPZzf7ZXw38RE3N6tNWjc6qC038vJANxwwIDcb3zo3LOwwN4vUPje+rFM3R49MNyDQYDdpQFk3VcwWN9DUVzcEXnM3rV6LN5wiKzeeIYg3cPRgN274FTcqbzc3AnpUNzZ8YDfipS03NHM2N344EDd22u42zGnANpKdCTeLbVc30xppN4tPdzdCrXA3J9xLNxWdTzc6SVw3aw82N66sOTetggU3HAr9NgK+zjY35xg3miwHNwWzHzcpQSQ3h7pPNxdDTjdxwz43LZIjN7CyDjcFZQA3W806N8DyXDdsFhg3ZjEgN5oeCjeRnwQ3eoQZN7bxHDdLtB43DPkNN26pHjfJ7SU3RdLtNtECUzfoHjw3gjhJNy3sbDcMcSo3aD9CN1RELjcLLSw3F5cmN1/uBjdTKP822XroNlS8KjcI0lY37q49N8K2NDdkGIE3EyteN0epYzfe4Uw39goqN9Lbljfzq2E30UEnN/+kSDemgRY3euwZN1l5OTcqlmI3Bp4oN4ulJjf65dc2AM5RN20NCDemGzo3Nb8SN98JKzfFTRo31/4eN1qyATekdug2UbkVN2HH5DaWXDg363VgN6dRhzdhHF43rjkdN2G+Hjel79Y219wgN4JzRjd39n43d3BAN1J6PzeISHA3aTkmN1vmDDdRsdk2aLk6N5/vTDeM3BU3AnYzNzhcEjd7Avc2TfcIN3heDDdMwBE33EQuNw3q3jZKtwA3uQ4ZN+A7FDckwAw30CvUNvSz0zbqFQA3gGvoNsPpMjfnWzQ3oVwANzOyvDb30xo3r9ISN+7C9jZLQxM3qahLN6yQKje82is3oy8WN+6iBjc44QA3qQFZN5edhDfwomU3irY+NzdaLTel6xI3NFEsN6Jm8TYFbx03TD0XN7iePDfAsVk3k7U7N6rqMDfwzB03uU00N5CCITfQyUE35vNON2qGGTcLLVE3LTUdN1UC+Tbhgp42S6EXN7E9BjeCa1A3fININ4R+QTdD4E83dJ5SN5/daTe8+iY3Cf4NNwDpFjcSrP82+g4lN3zlJDdifjE3qlEjN83f/DaRMiY3M7YON9uZADfn3Q83laVAN1HrVTcSlIs3JE8qN2sYITd27ww3w4wUN4sXTTejW0w32IdpN9MxLjflPCc3NGgONw==
+    </Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Calf Studio Gear:Analyzer In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Calf Studio Gear:Equalizer 30 Band In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Deesser Out #1</Source>
+   <Target>Calf Studio Gear:Limiter In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Limiter Out #1</Source>
+   <Target>PulseAudio JACK Source:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Limiter Out #1</Source>
+   <Target>PulseAudio JACK Source:front-right</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Gate Out #1</Source>
+   <Target>Calf Studio Gear:Deesser In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Equalizer 30 Band Out #1</Source>
+   <Target>Calf Studio Gear:Gate In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Equalizer 30 Band Out #1</Source>
+   <Target>Calf Studio Gear:Analyzer In #2</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

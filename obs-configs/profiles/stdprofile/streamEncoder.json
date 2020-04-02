@@ -1,0 +1,9 @@
+{
+    "bitrate": 2300,
+    "keyint_sec": 1,
+    "preset": "ultrafast",
+    "profile": "main",
+    "rate_control": "CBR",
+    "tune": "zerolatency",
+    "use_bufsize": false
+}
