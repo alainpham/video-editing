@@ -2,7 +2,7 @@
 <rack><plugin type="deesser" instance-name="Deesser" input-index="19" output-index="19">
 <preset bank="0" program="0" plugin="deesser" name="">
   <param name="bypass" value="0" />
-  <param name="detected" value="0.00889511" />
+  <param name="detected" value="0.0127206" />
   <param name="compression" value="1" />
   <param name="detected_led" value="0" />
   <param name="clip_out" value="0" />
@@ -25,9 +25,9 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.00564923" />
+  <param name="meter_inL" value="0.0198125" />
   <param name="meter_inR" value="0" />
-  <param name="meter_outL" value="0.00630555" />
+  <param name="meter_outL" value="0.0218207" />
   <param name="meter_outR" value="4.97873e-26" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
@@ -46,8 +46,8 @@
 </plugin>
 <plugin type="analyzer" instance-name="Analyzer" input-index="13" output-index="13">
 <preset bank="0" program="0" plugin="analyzer" name="">
-  <param name="meter_L" value="-0.00197077" />
-  <param name="meter_R" value="-0.00035933" />
+  <param name="meter_L" value="-0.0121968" />
+  <param name="meter_R" value="-0.00141975" />
   <param name="clip_L" value="0" />
   <param name="clip_R" value="0" />
   <param name="analyzer_level" value="2" />
@@ -78,7 +78,7 @@
   <param name="clip_in" value="0" />
   <param name="clip_out" value="0" />
   <param name="range" value="1.5849e-05" />
-  <param name="threshold" value="0.00897421" />
+  <param name="threshold" value="0.00961832" />
   <param name="ratio" value="2" />
   <param name="attack" value="1.0176" />
   <param name="release" value="250" />
@@ -92,7 +92,7 @@
 <plugin type="eq30" instance-name="Equalizer 30 Band" input-index="20" output-index="20">
 <preset bank="0" program="0" plugin="eq30" name="">
   <param name="level_in" value="1" />
-  <param name="level_in_vuL" value="0.0115929" />
+  <param name="level_in_vuL" value="0.0172604" />
   <param name="level_in_vuR" value="0" />
   <param name="level_in_clipL" value="0" />
   <param name="level_in_clipR" value="0" />
@@ -101,7 +101,7 @@
   <param name="gainscale1" value="30" />
   <param name="gainscale2" value="18" />
   <param name="level_out" value="1" />
-  <param name="level_out_vuL" value="0.00995238" />
+  <param name="level_out_vuL" value="0.0217558" />
   <param name="level_out_vuR" value="0" />
   <param name="level_out_clipL" value="0" />
   <param name="level_out_clipR" value="0" />
@@ -283,6 +283,24 @@
   <param name="zoom" value="1" />
   <param name="analyzer" value="1" />
   <param name="analyzer_mode" value="1" />
+</preset>
+</plugin>
+<plugin type="monocompressor" instance-name="Mono Compressor" input-index="28" output-index="28">
+<preset bank="0" program="0" plugin="monocompressor" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="meter_in" value="0.0198125" />
+  <param name="meter_out" value="0.0198125" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="threshold" value="0.5" />
+  <param name="ratio" value="2.56936" />
+  <param name="attack" value="20" />
+  <param name="release" value="250" />
+  <param name="makeup" value="1" />
+  <param name="knee" value="2.82843" />
+  <param name="compression" value="1" />
+  <param name="mix" value="1" />
 </preset>
 </plugin>
 </rack>
