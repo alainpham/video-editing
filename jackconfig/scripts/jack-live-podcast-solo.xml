@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aj-snapshot>
+<alsa>
+  <client name="System">
+    <port id="0" />
+    <port id="1" />
+  </client>
+  <client name="Midi Through">
+    <port id="0" />
+  </client>
+  <client name="Client-128" />
+</alsa>
+<jack>
+  <client name="system">
+    <port name="capture_1">
+      <connection port="Calf Studio Gear:Equalizer 30 Band In #1" />
+    </port>
+    <port name="capture_2" />
+  </client>
+  <client name="PulseAudio JACK Sink">
+    <port name="front-left">
+      <connection port="system:playback_1" />
+      <connection port="dock:playback_1" />
+    </port>
+    <port name="front-right">
+      <connection port="system:playback_2" />
+      <connection port="dock:playback_2" />
+    </port>
+  </client>
+  <client name="Calf Studio Gear">
+    <port name="Equalizer 30 Band Out #1">
+      <connection port="Calf Studio Gear:Gate In #1" />
+    </port>
+    <port name="Equalizer 30 Band Out #2" />
+    <port name="Gate Out #1">
+      <connection port="Calf Studio Gear:Mono Compressor In #1" />
+    </port>
+    <port name="Gate Out #2" />
+    <port name="Mono Compressor Out #1">
+      <connection port="Calf Studio Gear:Deesser In #1" />
+    </port>
+    <port name="Deesser Out #1">
+      <connection port="Calf Studio Gear:Limiter In #1" />
+    </port>
+    <port name="Deesser Out #2" />
+    <port name="Limiter Out #1">
+      <connection port="PulseAudio JACK Source:mono" />
+    </port>
+    <port name="Limiter Out #2" />
+    <port name="Analyzer Out #1" />
+    <port name="Analyzer Out #2" />
+  </client>
+</jack>
+</aj-snapshot>

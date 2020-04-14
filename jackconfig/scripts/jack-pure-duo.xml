@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aj-snapshot>
+<alsa>
+  <client name="System">
+    <port id="0" />
+    <port id="1" />
+  </client>
+  <client name="Midi Through">
+    <port id="0" />
+  </client>
+  <client name="Client-128" />
+</alsa>
+<jack>
+  <client name="system">
+    <port name="capture_1">
+      <connection port="PulseAudio JACK Source:mono" />
+    </port>
+    <port name="capture_2" />
+  </client>
+  <client name="H1">
+    <port name="capture_1">
+      <connection port="pulse-h1:front-left" />
+    </port>
+    <port name="capture_2">
+      <connection port="pulse-h1:front-right" />
+    </port>
+  </client>
+  <client name="PulseAudio JACK Sink">
+    <port name="front-left">
+      <connection port="system:playback_1" />
+      <connection port="dock:playback_1" />
+      <connection port="H1-out:playback_1" />
+    </port>
+    <port name="front-right">
+      <connection port="system:playback_2" />
+      <connection port="dock:playback_2" />
+      <connection port="H1-out:playback_2" />
+    </port>
+  </client>
+</jack>
+</aj-snapshot>

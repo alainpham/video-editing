@@ -17,11 +17,15 @@
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
-   <Target>Calf Studio Gear:Analyzer In #1</Target>
+   <Target>Calf Studio Gear:Equalizer 30 Band In #1</Target>
   </Connection>
   <Connection>
-   <Source>system:capture_1</Source>
-   <Target>Calf Studio Gear:Equalizer 30 Band In #1</Target>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
   </Connection>
   <Connection>
    <Source>Calf Studio Gear:Deesser Out #1</Source>
@@ -38,10 +42,6 @@
   <Connection>
    <Source>Calf Studio Gear:Equalizer 30 Band Out #1</Source>
    <Target>Calf Studio Gear:Gate In #1</Target>
-  </Connection>
-  <Connection>
-   <Source>Calf Studio Gear:Equalizer 30 Band Out #1</Source>
-   <Target>Calf Studio Gear:Analyzer In #2</Target>
   </Connection>
   <Connection>
    <Source>Calf Studio Gear:Mono Compressor Out #1</Source>
