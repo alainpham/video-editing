@@ -4,7 +4,7 @@ echo "Shutting down all existing jackd and alsa_in"
 killall -9 jackd >/dev/null 2>&1
 killall -9 alsa_in >/dev/null 2>&1
 killall -9 alsa_out >/dev/null 2>&1
-sleep 1
+sleep 2
 echo "Starting jack"
 nohup jackd -dalsa -dhw:USB -r44100 -p1024 -n2 </dev/null >/dev/null 2>&1 &
 sleep 5

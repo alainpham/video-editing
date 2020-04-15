@@ -1,9 +1,9 @@
 {
     "settings": {
         "bwtest": false,
-        "key": "live_503586869_hiGo1eEKczbeQ9qXyBEv3Ht9dbtOVk",
-        "server": "rtmp://live-cdg.twitch.tv/app",
-        "service": "Twitch"
+        "key": "163990307-YlSKpdZNAwed54CYU4OsDzjyffOjz1ix",
+        "server": "rtmp://ingest-lon.mixer.com:1935/beam",
+        "service": "Mixer.com - RTMP"
     },
     "type": "rtmp_common"
 }

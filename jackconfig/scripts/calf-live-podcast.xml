@@ -2,7 +2,7 @@
 <rack><plugin type="eq30" instance-name="Equalizer 30 Band" input-index="20" output-index="20">
 <preset bank="0" program="0" plugin="eq30" name="">
   <param name="level_in" value="1" />
-  <param name="level_in_vuL" value="0.00840947" />
+  <param name="level_in_vuL" value="0.00498033" />
   <param name="level_in_vuR" value="0" />
   <param name="level_in_clipL" value="0" />
   <param name="level_in_clipR" value="0" />
@@ -11,7 +11,7 @@
   <param name="gainscale1" value="30" />
   <param name="gainscale2" value="18" />
   <param name="level_out" value="1" />
-  <param name="level_out_vuL" value="0.0077832" />
+  <param name="level_out_vuL" value="0.00479552" />
   <param name="level_out_vuR" value="0" />
   <param name="level_out_clipL" value="0" />
   <param name="level_out_clipR" value="0" />
@@ -153,14 +153,14 @@
   <param name="clip_in" value="0" />
   <param name="clip_out" value="0" />
   <param name="range" value="1.5849e-05" />
-  <param name="threshold" value="0.00961832" />
+  <param name="threshold" value="0.0162885" />
   <param name="ratio" value="2" />
   <param name="attack" value="1.0176" />
   <param name="release" value="250" />
   <param name="makeup" value="1" />
   <param name="knee" value="2.82843" />
   <param name="detection" value="0" />
-  <param name="stereo_link" value="0" />
+  <param name="stereo_link" value="1" />
   <param name="gating" value="1" />
 </preset>
 </plugin>
@@ -185,7 +185,7 @@
 <plugin type="deesser" instance-name="Deesser" input-index="19" output-index="19">
 <preset bank="0" program="0" plugin="deesser" name="">
   <param name="bypass" value="0" />
-  <param name="detected" value="0.0114524" />
+  <param name="detected" value="0.00596271" />
   <param name="compression" value="1" />
   <param name="detected_led" value="0" />
   <param name="clip_out" value="0" />
@@ -208,9 +208,9 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.00757788" />
+  <param name="meter_inL" value="0.00468966" />
   <param name="meter_inR" value="0" />
-  <param name="meter_outL" value="0.0085721" />
+  <param name="meter_outL" value="0.00404259" />
   <param name="meter_outR" value="4.97873e-26" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />

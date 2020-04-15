@@ -8,7 +8,7 @@ killall -9 calfjackhost  >/dev/null 2>&1
 sleep 1
 echo "Starting jack"
 nohup jackd -dalsa -dhw:USB -r44100 -p1024 -n2 </dev/null >/dev/null 2>&1 &
-sleep 5
+sleep 10
 echo "Restart pulseaudio"
 pulseaudio -k
 sleep 10

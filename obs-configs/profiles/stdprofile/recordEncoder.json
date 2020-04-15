@@ -1,3 +1,7 @@
 {
-    "keyint_sec": 1
+    "bitrate": 3500,
+    "keyint_sec": 1,
+    "maxrate": 4000,
+    "qp": 16,
+    "rate_control": "CQP"
 }
