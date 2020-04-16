@@ -2,7 +2,7 @@
 <rack><plugin type="eq30" instance-name="Equalizer 30 Band" input-index="20" output-index="20">
 <preset bank="0" program="0" plugin="eq30" name="">
   <param name="level_in" value="1" />
-  <param name="level_in_vuL" value="0.00498033" />
+  <param name="level_in_vuL" value="0.00593639" />
   <param name="level_in_vuR" value="0" />
   <param name="level_in_clipL" value="0" />
   <param name="level_in_clipR" value="0" />
@@ -11,7 +11,7 @@
   <param name="gainscale1" value="30" />
   <param name="gainscale2" value="18" />
   <param name="level_out" value="1" />
-  <param name="level_out_vuL" value="0.00479552" />
+  <param name="level_out_vuL" value="0.00563649" />
   <param name="level_out_vuR" value="0" />
   <param name="level_out_clipL" value="0" />
   <param name="level_out_clipR" value="0" />
@@ -146,37 +146,37 @@
 </plugin>
 <plugin type="gate" instance-name="Gate" input-index="15" output-index="15">
 <preset bank="0" program="0" plugin="gate" name="">
-  <param name="bypass" value="1" />
+  <param name="bypass" value="0" />
   <param name="level_in" value="1" />
-  <param name="meter_in" value="0" />
-  <param name="meter_out" value="0" />
+  <param name="meter_in" value="0.00480476" />
+  <param name="meter_out" value="9.46228e-05" />
   <param name="clip_in" value="0" />
   <param name="clip_out" value="0" />
-  <param name="range" value="1.5849e-05" />
-  <param name="threshold" value="0.0162885" />
+  <param name="range" value="0.0161856" />
+  <param name="threshold" value="0.0143779" />
   <param name="ratio" value="2" />
-  <param name="attack" value="1.0176" />
+  <param name="attack" value="7.1737" />
   <param name="release" value="250" />
   <param name="makeup" value="1" />
   <param name="knee" value="2.82843" />
   <param name="detection" value="0" />
   <param name="stereo_link" value="1" />
-  <param name="gating" value="1" />
+  <param name="gating" value="0.0161856" />
 </preset>
 </plugin>
 <plugin type="monocompressor" instance-name="Mono Compressor" input-index="28" output-index="28">
 <preset bank="0" program="0" plugin="monocompressor" name="">
-  <param name="bypass" value="1" />
+  <param name="bypass" value="0" />
   <param name="level_in" value="1" />
-  <param name="meter_in" value="0" />
-  <param name="meter_out" value="0" />
+  <param name="meter_in" value="0.000137425" />
+  <param name="meter_out" value="0.000440347" />
   <param name="clip_in" value="0" />
   <param name="clip_out" value="0" />
-  <param name="threshold" value="0.5" />
-  <param name="ratio" value="2.56936" />
+  <param name="threshold" value="0.125" />
+  <param name="ratio" value="2" />
   <param name="attack" value="20" />
   <param name="release" value="250" />
-  <param name="makeup" value="1" />
+  <param name="makeup" value="3.20428" />
   <param name="knee" value="2.82843" />
   <param name="compression" value="1" />
   <param name="mix" value="1" />
@@ -185,7 +185,7 @@
 <plugin type="deesser" instance-name="Deesser" input-index="19" output-index="19">
 <preset bank="0" program="0" plugin="deesser" name="">
   <param name="bypass" value="0" />
-  <param name="detected" value="0.00596271" />
+  <param name="detected" value="0.000673112" />
   <param name="compression" value="1" />
   <param name="detected_led" value="0" />
   <param name="clip_out" value="0" />
@@ -208,9 +208,9 @@
   <param name="bypass" value="0" />
   <param name="level_in" value="1" />
   <param name="level_out" value="1" />
-  <param name="meter_inL" value="0.00468966" />
+  <param name="meter_inL" value="0.000440347" />
   <param name="meter_inR" value="0" />
-  <param name="meter_outL" value="0.00404259" />
+  <param name="meter_outL" value="0.000241935" />
   <param name="meter_outR" value="4.97873e-26" />
   <param name="clip_inL" value="0" />
   <param name="clip_inR" value="0" />
@@ -234,11 +234,11 @@
   <param name="clip_L" value="0" />
   <param name="clip_R" value="0" />
   <param name="analyzer_level" value="2" />
-  <param name="analyzer_mode" value="4" />
+  <param name="analyzer_mode" value="1" />
   <param name="analyzer_scale" value="1" />
   <param name="analyzer_post" value="0" />
-  <param name="analyzer_view" value="1" />
-  <param name="analyzer_smoothing" value="0" />
+  <param name="analyzer_view" value="0" />
+  <param name="analyzer_smoothing" value="1" />
   <param name="analyzer_windowing" value="2" />
   <param name="analyzer_accuracy" value="7" />
   <param name="analyzer_speed" value="15" />
