@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1587072377" tv-usec="190606" name="move marker">
-    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="2684" name="session" start="0" end="3096047" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-        <Location id="4286" name="Loop" start="2268869" end="2556869" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
-      </Locations>
-      <Locations>
-        <Location id="2684" name="session" start="0" end="3096047" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-        <Location id="4286" name="Loop" start="2268869" end="2623429" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseRange" zoom="2560" left-frame="580424" y-origin="0">
-        <Selection>
-          <Marker id="4286" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseRange" zoom="2560" left-frame="580424" y-origin="0">
-        <Selection>
-          <Marker id="4286" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1587072384" tv-usec="390568" name="move marker">
     <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
       <Locations>
@@ -439,6 +415,28 @@
       <SelectionMemento mouse-mode="MouseObject" zoom="5707" left-frame="0" y-origin="0">
         <Selection>
           <Marker id="4286" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1587119491" tv-usec="876438" name="set loop range from region">
+    <MementoCommand obj-id="4286" type-name="ARDOUR::Location">
+      <Location id="4286" name="Loop" start="0" end="2537025" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+      <Location id="4286" name="Loop" start="0" end="2715136" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5707" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="4610"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5707" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="4610"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
