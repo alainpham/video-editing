@@ -145,7 +145,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="57" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.067054770886898041"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.11607902497053146"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -704,7 +704,7 @@
       <Controllable name="rec-enable" id="474" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="mic-pga48" name="mic-pga48" id="479" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="2342" name="desktop" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="2342" name="desktop" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterVU" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="1900543"/>
       <Controllable name="solo" id="2350" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2356" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1281,7 +1281,7 @@
       <Controllable name="rec-enable" id="15802" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="mic-h1.1" name="mic-h1" id="15807" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
-    <Route id="15833" name="mic-master" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak">
+    <Route id="15833" name="mic-master" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterVU">
       <PresentationInfo order="3" flags="AudioBus,OrderSet" color="4522239"/>
       <Controllable name="solo" id="15841" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15847" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
