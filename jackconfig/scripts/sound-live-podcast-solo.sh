@@ -12,6 +12,6 @@ echo "Restart pulseaudio"
 pulseaudio -k
 sleep 10
 echo "Start alsa_out for dock"
-nohup alsa_out -j dock -d hw:USB_1 -r 44100 </dev/null >/dev/null 2>&1 &
+nohup alsa_out -j dock -d hw:PCH -r 44100 </dev/null >/dev/null 2>&1 &
 sleep 2
 nohup ardour5 live-podcast </dev/null >/dev/null 2>&1 &
