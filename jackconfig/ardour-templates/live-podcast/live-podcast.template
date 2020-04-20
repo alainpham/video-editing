@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-podcast" sample-rate="44100" end-is-free="0" id-counter="30880" name-counter="12" event-counter="3160" vca-counter="1">
+<Session version="3002" id-counter="29261" name-counter="12" event-counter="3135" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -31,9 +31,6 @@
     <Option name="subframes-per-frame" value="100"/>
     <Option name="timecode-format" value="timecode_30"/>
     <Option name="minitimeline-span" value="120"/>
-    <Option name="raid-path" value=""/>
-    <Option name="audio-search-path" value="/home/workdrive/TAZONE/WORKSPACES/ws-video/video-production/jackconfig/scripts/live-podcast/interchange/live-podcast/audiofiles"/>
-    <Option name="midi-search-path" value=""/>
     <Option name="track-name-number" value="0"/>
     <Option name="track-name-take" value="0"/>
     <Option name="take-name" value="Take1"/>
@@ -70,10 +67,8 @@
   <Metadata/>
   <Sources/>
   <Regions/>
-  <Selection/>
   <Locations>
-    <Location id="2684" name="session" start="0" end="3803715" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="4286" name="Loop" start="317504" end="613138" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="29263" name="session" start="0" end="0" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -106,13 +101,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="64" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="66" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="61" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="67" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="69" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="63" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="65" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="73" flags="" value="0.5"/>
         <Controllable name="pan-width" id="77" flags="" value="0.5"/>
@@ -128,15 +116,9 @@
         </Automation>
       </Pannable>
       <Processor id="85" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="59" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="60" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="84" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="57" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.092902667820453644"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
@@ -165,9 +147,7 @@
       <Controllable name="solo-iso" id="452" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="454" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="mic-pga48" id="466" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="mic-pga48/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="mic-pga48/audio_in 1"/>
       </IO>
       <IO name="mic-pga48" id="467" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="mic-pga48/audio_out 1">
@@ -183,16 +163,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="448" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="450" flags="Toggle" value="0" phase-invert="0"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="445" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="451" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="453" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="447" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-enable" id="473" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-safe" id="475" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="449" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="monitor" id="477" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="457" flags="" value="0.5"/>
         <Controllable name="pan-width" id="461" flags="" value="0"/>
@@ -208,54 +178,10 @@
         </Automation>
       </Pannable>
       <Processor id="469" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="443" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="444" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="470" name="meter-Audio" active="1" user-latency="0" type="meter"/>
       <Processor id="9315" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="9316" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="9318" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="9320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="9322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="9324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="9326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="9328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="9330" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="9332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="9334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="9336" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="9338" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-24" id="9340" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-25" id="9342" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-26" id="9344" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-27" id="9346" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-28" id="9348" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-29" id="9350" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-30" id="9352" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-31" id="9354" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-32" id="9356" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-33" id="9358" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-34" id="9360" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-35" id="9362" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-36" id="9364" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-37" id="9366" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-38" id="9368" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-39" id="9370" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-40" id="9372" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-41" id="9374" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-42" id="9376" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-43" id="9378" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-44" id="9380" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-45" id="9382" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-46" id="9384" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-47" id="9386" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-48" id="9388" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-49" id="9390" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-50" id="9392" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -274,7 +200,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -356,19 +282,6 @@
         <Controllable name="Analyzer Mode" id="9393" flags="" value="2" parameter="50" symbol="analyzer_mode"/>
       </Processor>
       <Processor id="1693" name="Noise repellent" active="1" user-latency="0" type="lv2" unique-id="https://github.com/lucianodato/noise-repellent" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="1694" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="1696" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="1698" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="1700" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="1702" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="1704" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="1706" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-7" id="1708" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="1710" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="1712" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="1714" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -386,7 +299,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast" state-dir="state2">
           <Port symbol="reduction" value="8"/>
           <Port symbol="offset" value="0"/>
           <Port symbol="release" value="150"/>
@@ -412,19 +325,6 @@
         <Controllable name="hidden" id="1715" flags="Toggle" value="1" parameter="10" symbol="enable"/>
       </Processor>
       <Processor id="2109" name="Calf Gate" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Gate" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2110" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2112" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2114" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2116" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2118" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2120" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2122" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2124" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2126" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2128" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2130" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -443,7 +343,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="range" value="1.5849000192247331e-05"/>
@@ -469,21 +369,6 @@
         <Controllable name="Stereo Link" id="2131" flags="" value="1" parameter="18" symbol="stereo_link"/>
       </Processor>
       <Processor id="2159" name="Calf Deesser" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Deesser" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2160" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2162" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2164" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2166" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2168" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2170" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2172" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2174" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2176" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2178" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2180" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2182" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="2184" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -502,7 +387,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="detection" value="0"/>
           <Port symbol="mode" value="0"/>
@@ -532,17 +417,6 @@
         <Controllable name="S/C-Listen" id="2185" flags="Toggle" value="0" parameter="20" symbol="sc_listen"/>
       </Processor>
       <Processor id="2136" name="Calf Mono Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/MonoCompressor" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-2" id="2137" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="2139" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="2141" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2143" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2145" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2147" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2149" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2151" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2153" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -561,7 +435,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="threshold" value="0.23004689812660217"/>
@@ -583,18 +457,6 @@
         <Controllable name="Mix" id="2154" flags="" value="1" parameter="15" symbol="mix"/>
       </Processor>
       <Processor id="2317" name="Calf Limiter" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Limiter" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2318" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="2322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2330" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="2332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="2334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="2336" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
         </ConfiguredInput>
@@ -613,7 +475,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -637,15 +499,9 @@
         <Controllable name="Auto-level" id="2337" flags="Toggle" value="0" parameter="23" symbol="auto_level"/>
       </Processor>
       <Processor id="468" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="441" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="442" flags="GainLike" value="0.99854570627212524"/>
       </Processor>
       <Processor id="8895" name="send 3" active="1" user-latency="0" own-input="1" own-output="1" type="send" role="Send" bitslot="2" selfdestruct="1">
-        <Automation>
-          <AutomationList automation-id="gain" id="8909" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <IO name="send 3" id="8896" direction="Output" default-type="audio" pretty-name="SC mic-pga48 (3)" user-latency="0">
           <Port type="audio" name="send 3/audio_send 1">
             <Connection other="Sidechain 9/audio_in 1"/>
@@ -667,9 +523,6 @@
           </Automation>
         </Pannable>
         <Processor id="8911" name="Amp" active="1" user-latency="0" type="amp">
-          <Automation>
-            <AutomationList automation-id="gain" id="8909" interpolation-style="Linear" state="Off"/>
-          </Automation>
           <Controllable name="gaincontrol" id="8910" flags="GainLike" value="1"/>
         </Processor>
       </Processor>
@@ -702,12 +555,8 @@
       <Controllable name="solo-iso" id="2356" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2358" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="desktop" id="2370" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="desktop/audio_in 1">
-          <Connection other="pulse-main:front-left"/>
-        </Port>
-        <Port type="audio" name="desktop/audio_in 2">
-          <Connection other="pulse-main:front-right"/>
-        </Port>
+        <Port type="audio" name="desktop/audio_in 1"/>
+        <Port type="audio" name="desktop/audio_in 2"/>
       </IO>
       <IO name="desktop" id="2371" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="desktop/audio_out 1">
@@ -728,16 +577,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2352" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="2354" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="2349" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="2355" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="2357" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="2351" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-enable" id="2377" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-safe" id="2379" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="2353" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="monitor" id="2381" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="2361" flags="" value="0.5"/>
         <Controllable name="pan-width" id="2365" flags="" value="1"/>
@@ -753,22 +592,9 @@
         </Automation>
       </Pannable>
       <Processor id="2373" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="2347" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="2348" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="13840" name="a-Compressor stereo" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="13841" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="13843" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="13845" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="13847" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="13849" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="13851" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="13853" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="13855" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -788,7 +614,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="att" value="5"/>
           <Port symbol="rel" value="250"/>
           <Port symbol="kn" value="8"/>
@@ -808,16 +634,6 @@
         <Controllable name="Enable" id="13856" flags="Toggle" value="1" parameter="9" symbol="enable"/>
       </Processor>
       <Processor id="8862" name="a-Compressor stereo" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="8863" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="8865" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="8867" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="8869" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="8871" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="8873" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="8875" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="8877" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -846,7 +662,7 @@
             </Port>
           </IO>
         </Processor>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="att" value="20"/>
           <Port symbol="rel" value="700"/>
           <Port symbol="kn" value="8"/>
@@ -866,13 +682,6 @@
         <Controllable name="Enable" id="8878" flags="Toggle" value="1" parameter="9" symbol="enable"/>
       </Processor>
       <Processor id="2372" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="2345" interpolation-style="Linear" state="Off">
-            <events>0 1.012961745262146
-3197952 0.99854695796966553
-</events>
-          </AutomationList>
-        </Automation>
         <Controllable name="gaincontrol" id="2346" flags="GainLike" value="0.99999910593032837"/>
       </Processor>
       <Processor id="2375" name="desktop" active="1" user-latency="0" own-input="1" own-output="0" output="desktop" type="main-outs" role="Main">
@@ -905,12 +714,8 @@
       <Controllable name="solo-iso" id="2900" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2902" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="caller-in" id="2914" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="caller-in/audio_in 1">
-          <Connection other="caller-audio:front-left"/>
-        </Port>
-        <Port type="audio" name="caller-in/audio_in 2">
-          <Connection other="caller-audio:front-right"/>
-        </Port>
+        <Port type="audio" name="caller-in/audio_in 1"/>
+        <Port type="audio" name="caller-in/audio_in 2"/>
       </IO>
       <IO name="caller-in" id="2915" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="caller-in/audio_out 1">
@@ -929,16 +734,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="2896" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="2898" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="2893" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="2899" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="2901" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="2895" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-enable" id="2921" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-safe" id="2923" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="2897" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="monitor" id="2925" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="2905" flags="" value="0.5"/>
         <Controllable name="pan-width" id="2909" flags="" value="1"/>
@@ -954,22 +749,9 @@
         </Automation>
       </Pannable>
       <Processor id="2917" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="2891" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="2892" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="29202" name="a-Compressor stereo" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="13841" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="13843" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="13845" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="13847" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="13849" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="13851" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="13853" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="13855" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -989,7 +771,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="att" value="5"/>
           <Port symbol="rel" value="250"/>
           <Port symbol="kn" value="8"/>
@@ -1009,9 +791,6 @@
         <Controllable name="Enable" id="13856" flags="Toggle" value="1" parameter="9" symbol="enable"/>
       </Processor>
       <Processor id="2916" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="2889" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="2890" flags="GainLike" value="1.0000001192092896"/>
       </Processor>
       <Processor id="2918" name="meter-caller" active="1" user-latency="0" type="meter"/>
@@ -1066,13 +845,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="13937" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="13939" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="13934" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="13940" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="13942" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="13936" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="13938" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="13946" flags="" value="0.5"/>
         <Controllable name="pan-width" id="13950" flags="" value="1"/>
@@ -1087,21 +859,11 @@
           <AutomationList automation-id="pan-lfe" id="13953" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="13963" name="return 3" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="2">
-        <Automation>
-          <AutomationList automation-id="gain" id="13964" interpolation-style="Linear" state="Off"/>
-        </Automation>
-      </Processor>
+      <Processor id="13963" name="return 3" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="2"/>
       <Processor id="13958" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="13932" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="13933" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="13957" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="13930" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="13931" flags="GainLike" value="0.053053721785545349"/>
       </Processor>
       <Processor id="13960" name="dock-master" active="1" user-latency="0" own-input="1" own-output="0" output="dock-master" type="main-outs" role="Main">
@@ -1144,13 +906,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="15710" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15712" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="15707" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="15713" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="15715" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="15709" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="15711" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Comment>desk2caller</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="15719" flags="" value="0.5"/>
@@ -1166,21 +921,11 @@
           <AutomationList automation-id="pan-lfe" id="15726" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="15736" name="return 4" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="3">
-        <Automation>
-          <AutomationList automation-id="gain" id="15737" interpolation-style="Linear" state="Off"/>
-        </Automation>
-      </Processor>
+      <Processor id="15736" name="return 4" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="3"/>
       <Processor id="15731" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="15705" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="15706" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="15730" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="15703" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="15704" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="15733" name="caller-out" active="1" user-latency="0" own-input="1" own-output="0" output="caller-out" type="main-outs" role="Main">
@@ -1227,16 +972,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="15776" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="15778" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="15773" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="15779" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="15781" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="15775" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-enable" id="15801" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-safe" id="15803" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="15777" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="monitor" id="15805" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="15785" flags="" value="0.5"/>
         <Controllable name="pan-width" id="15789" flags="" value="1"/>
@@ -1252,54 +987,10 @@
         </Automation>
       </Pannable>
       <Processor id="15797" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="15771" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="15772" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="15798" name="meter-mic-h1" active="1" user-latency="0" type="meter"/>
       <Processor id="22881" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="9316" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="9318" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="9320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="9322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="9324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="9326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="9328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="9330" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="9332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="9334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="9336" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="9338" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-24" id="9340" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-25" id="9342" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-26" id="9344" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-27" id="9346" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-28" id="9348" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-29" id="9350" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-30" id="9352" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-31" id="9354" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-32" id="9356" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-33" id="9358" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-34" id="9360" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-35" id="9362" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-36" id="9364" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-37" id="9366" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-38" id="9368" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-39" id="9370" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-40" id="9372" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-41" id="9374" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-42" id="9376" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-43" id="9378" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-44" id="9380" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-45" id="9382" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-46" id="9384" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-47" id="9386" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-48" id="9388" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-49" id="9390" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-50" id="9392" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1320,7 +1011,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -1402,19 +1093,6 @@
         <Controllable name="Analyzer Mode" id="9393" flags="" value="2" parameter="50" symbol="analyzer_mode"/>
       </Processor>
       <Processor id="22965" name="Noise repellent" active="1" user-latency="0" type="lv2" unique-id="https://github.com/lucianodato/noise-repellent" count="2" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="22966" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="22968" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="22970" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="22972" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="22974" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="22976" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="22978" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-7" id="22980" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="22982" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="22984" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="22986" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1438,7 +1116,7 @@
           <Channelmap type="audio" from="0" to="1"/>
         </OutputMap-1>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast" state-dir="state3">
           <Port symbol="reduction" value="8.0206165313720703"/>
           <Port symbol="offset" value="0"/>
           <Port symbol="release" value="150"/>
@@ -1464,19 +1142,6 @@
         <Controllable name="hidden" id="22987" flags="Toggle" value="1" parameter="10" symbol="enable"/>
       </Processor>
       <Processor id="23076" name="Calf Gate" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Gate" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2110" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2112" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2114" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2116" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2118" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2120" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2122" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2124" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2126" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2128" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2130" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1497,7 +1162,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="range" value="1.5849000192247331e-05"/>
@@ -1523,21 +1188,6 @@
         <Controllable name="Stereo Link" id="2131" flags="" value="1" parameter="18" symbol="stereo_link"/>
       </Processor>
       <Processor id="23103" name="Calf Deesser" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Deesser" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2160" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2162" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2164" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2166" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2168" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2170" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2172" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2174" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2176" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2178" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2180" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2182" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="2184" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1558,7 +1208,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="detection" value="0"/>
           <Port symbol="mode" value="0"/>
@@ -1588,19 +1238,6 @@
         <Controllable name="S/C-Listen" id="2185" flags="Toggle" value="0" parameter="20" symbol="sc_listen"/>
       </Processor>
       <Processor id="23134" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="23135" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="23137" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="23139" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="23141" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="23143" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="23145" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="23147" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="23149" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="23151" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="23153" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="23155" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1621,7 +1258,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="threshold" value="0.23004689812660217"/>
@@ -1647,18 +1284,6 @@
         <Controllable name="Mix" id="23156" flags="" value="1" parameter="19" symbol="mix"/>
       </Processor>
       <Processor id="25854" name="Calf Limiter" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Limiter" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2318" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="2322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2330" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="2332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="2334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="2336" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -1679,7 +1304,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -1703,15 +1328,9 @@
         <Controllable name="Auto-level" id="2337" flags="Toggle" value="0" parameter="23" symbol="auto_level"/>
       </Processor>
       <Processor id="15796" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="15769" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="15770" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="27468" name="send 2" active="1" user-latency="0" own-input="1" own-output="1" type="send" role="Send" bitslot="1" selfdestruct="0">
-        <Automation>
-          <AutomationList automation-id="gain" id="27482" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <IO name="send 2" id="27469" direction="Output" default-type="audio" user-latency="0">
           <Port type="audio" name="send 2/audio_send 1">
             <Connection other="Sidechain 9/audio_in 1"/>
@@ -1736,9 +1355,6 @@
           </Automation>
         </Pannable>
         <Processor id="27484" name="Amp" active="1" user-latency="0" type="amp">
-          <Automation>
-            <AutomationList automation-id="gain" id="27482" interpolation-style="Linear" state="Off"/>
-          </Automation>
           <Controllable name="gaincontrol" id="27483" flags="GainLike" value="0.68643522262573242"/>
         </Processor>
       </Processor>
@@ -1795,13 +1411,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15845" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="15840" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="15846" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="15848" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="15842" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="15844" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Comment>allmics</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="15852" flags="" value="0.5"/>
@@ -1817,21 +1426,11 @@
           <AutomationList automation-id="pan-lfe" id="15859" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="15869" name="return 5" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="4">
-        <Automation>
-          <AutomationList automation-id="gain" id="15870" interpolation-style="Linear" state="Off"/>
-        </Automation>
-      </Processor>
+      <Processor id="15869" name="return 5" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="4"/>
       <Processor id="15864" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="15838" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="15839" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="15863" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="15836" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="15837" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="15865" name="meter-mic-bus" active="1" user-latency="0" type="meter"/>
@@ -1878,13 +1477,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
       <Controllable name="mute" id="22855" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="22856" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="22857" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="22858" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="22859" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="22860" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="22861" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="22842" flags="" value="0.5"/>
         <Controllable name="pan-width" id="22843" flags="" value="1"/>
@@ -1899,21 +1491,11 @@
           <AutomationList automation-id="pan-lfe" id="22851" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="22832" name="return 3" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="1">
-        <Automation>
-          <AutomationList automation-id="gain" id="22833" interpolation-style="Linear" state="Off"/>
-        </Automation>
-      </Processor>
+      <Processor id="22832" name="return 3" active="1" user-latency="0" own-input="1" own-output="1" type="intreturn" bitslot="1"/>
       <Processor id="22834" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="22835" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="22836" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="22837" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="22838" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="22839" flags="GainLike" value="0.15638263523578644"/>
       </Processor>
       <Processor id="22840" name="h1-master" active="1" user-latency="0" own-input="1" own-output="0" output="h1-master" type="main-outs" role="Main">
@@ -1952,16 +1534,6 @@
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="25581" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="25583" flags="Toggle" value="0" phase-invert="00"/>
-      <Automation>
-        <AutomationList automation-id="solo" id="25578" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-iso" id="25584" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="solo-safe" id="25586" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="mute" id="25580" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-enable" id="25606" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="rec-safe" id="25608" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="phase" id="25582" interpolation-style="Discrete" state="Off"/>
-        <AutomationList automation-id="monitor" id="25610" interpolation-style="Discrete" state="Off"/>
-      </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="25590" flags="" value="0.5"/>
         <Controllable name="pan-width" id="25594" flags="" value="1"/>
@@ -1977,53 +1549,9 @@
         </Automation>
       </Pannable>
       <Processor id="25602" name="Amp" active="1" user-latency="0" type="trim">
-        <Automation>
-          <AutomationList automation-id="trim" id="25576" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="trimcontrol" id="25577" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="25688" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="9316" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="9318" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="9320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="9322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="9324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="9326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="9328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="9330" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="9332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="9334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="9336" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="9338" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-24" id="9340" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-25" id="9342" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-26" id="9344" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-27" id="9346" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-28" id="9348" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-29" id="9350" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-30" id="9352" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-31" id="9354" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-32" id="9356" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-33" id="9358" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-34" id="9360" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-35" id="9362" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-36" id="9364" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-37" id="9366" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-38" id="9368" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-39" id="9370" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-40" id="9372" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-41" id="9374" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-42" id="9376" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-43" id="9378" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-44" id="9380" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-45" id="9382" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-46" id="9384" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-47" id="9386" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-48" id="9388" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-49" id="9390" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-50" id="9392" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2044,7 +1572,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -2126,32 +1654,6 @@
         <Controllable name="Analyzer Mode" id="9393" flags="" value="2" parameter="50" symbol="analyzer_mode"/>
       </Processor>
       <Processor id="25634" name="a-EQ" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-eq" count="2" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="25517" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="25519" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="25521" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="25523" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="25525" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="25527" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="25529" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-7" id="25531" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="25533" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="25535" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="25537" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="25539" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="25541" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="25543" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="25545" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="25547" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="25549" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="25551" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="25553" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="25555" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="25557" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="25559" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="25561" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="25563" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2175,7 +1677,7 @@
           <Channelmap type="audio" from="0" to="1"/>
         </OutputMap-1>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="freql" value="38.550487518310547"/>
           <Port symbol="gl" value="-20"/>
           <Port symbol="freq1" value="100"/>
@@ -2227,19 +1729,6 @@
         <Controllable name="Enable" id="25564" flags="Toggle" value="1" parameter="23" symbol="enable"/>
       </Processor>
       <Processor id="25771" name="Calf Gate" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Gate" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2110" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2112" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2114" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2116" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2118" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2120" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2122" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2124" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2126" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2128" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2130" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2260,7 +1749,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="range" value="1.5849000192247331e-05"/>
@@ -2286,21 +1775,6 @@
         <Controllable name="Stereo Link" id="2131" flags="" value="1" parameter="18" symbol="stereo_link"/>
       </Processor>
       <Processor id="25797" name="Calf Deesser" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Deesser" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2160" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="2162" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="2164" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="2166" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="2168" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="2170" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="2172" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2174" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2176" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2178" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="2180" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2182" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-20" id="2184" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2321,7 +1795,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="detection" value="0"/>
           <Port symbol="mode" value="0"/>
@@ -2351,19 +1825,6 @@
         <Controllable name="S/C-Listen" id="2185" flags="Toggle" value="0" parameter="20" symbol="sc_listen"/>
       </Processor>
       <Processor id="25828" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="23135" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="23137" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="23139" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="23141" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="23143" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="23145" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="23147" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="23149" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="23151" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="23153" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="23155" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2384,7 +1845,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="threshold" value="0.23004689812660217"/>
@@ -2410,18 +1871,6 @@
         <Controllable name="Mix" id="23156" flags="" value="1" parameter="19" symbol="mix"/>
       </Processor>
       <Processor id="27351" name="Calf Limiter" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Limiter" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="2318" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="2320" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="2322" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="2324" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="2326" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="2328" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="2330" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-21" id="2332" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-22" id="2334" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-23" id="2336" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2442,7 +1891,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="bypass" value="0"/>
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
@@ -2466,16 +1915,6 @@
         <Controllable name="Auto-level" id="2337" flags="Toggle" value="0" parameter="23" symbol="auto_level"/>
       </Processor>
       <Processor id="29224" name="a-Compressor stereo" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-0" id="13841" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-1" id="13843" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-2" id="13845" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-3" id="13847" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="13849" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="13851" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="13853" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="13855" interpolation-style="Discrete" state="Off"/>
-        </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
         </ConfiguredInput>
@@ -2495,7 +1934,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" template-dir="/home/apham/.config/ardour5/templates/live-podcast">
           <Port symbol="att" value="5"/>
           <Port symbol="rel" value="250"/>
           <Port symbol="kn" value="8"/>
@@ -2515,9 +1954,6 @@
         <Controllable name="Enable" id="13856" flags="Toggle" value="1" parameter="9" symbol="enable"/>
       </Processor>
       <Processor id="25601" name="Amp" active="1" user-latency="0" type="amp">
-        <Automation>
-          <AutomationList automation-id="gain" id="25574" interpolation-style="Linear" state="Off"/>
-        </Automation>
         <Controllable name="gaincontrol" id="25575" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="25603" name="meter-dump" active="1" user-latency="0" type="meter"/>
@@ -2546,11 +1982,11 @@
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="480" name="mic-pga48" type="audio" orig-track-id="438" shared-with-ids="" frozen="0" combine-ops="0"/>
-    <Playlist id="2384" name="desktop.1" type="audio" orig-track-id="2342" shared-with-ids="" frozen="0" combine-ops="0"/>
-    <Playlist id="2928" name="caller-in" type="audio" orig-track-id="2886" shared-with-ids="" frozen="0" combine-ops="0"/>
-    <Playlist id="15808" name="mic-h1.1" type="audio" orig-track-id="15766" shared-with-ids="" frozen="0" combine-ops="0"/>
-    <Playlist id="25613" name="dump.1" type="audio" orig-track-id="25571" shared-with-ids="" frozen="0" combine-ops="0"/>
+    <Playlist id="480" name="mic-pga48" type="audio" orig-track-id="438" shared-with-ids="" frozen="0"/>
+    <Playlist id="2384" name="desktop.1" type="audio" orig-track-id="2342" shared-with-ids="" frozen="0"/>
+    <Playlist id="2928" name="caller-in" type="audio" orig-track-id="2886" shared-with-ids="" frozen="0"/>
+    <Playlist id="15808" name="mic-h1.1" type="audio" orig-track-id="15766" shared-with-ids="" frozen="0"/>
+    <Playlist id="25613" name="dump.1" type="audio" orig-track-id="25571" shared-with-ids="" frozen="0"/>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -2564,9 +2000,6 @@
       </Port>
     </IO>
     <Processor id="52" name="Amp" active="1" user-latency="0" type="amp">
-      <Automation>
-        <AutomationList automation-id="gain" id="49" interpolation-style="Linear" state="Off"/>
-      </Automation>
       <Controllable name="gaincontrol" id="50" flags="GainLike" value="1"/>
     </Processor>
   </Click>
@@ -2605,11 +2038,11 @@
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="1080" y-off="867" x-size="844" y-size="379"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="629"/>
+      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="874" y-size="516"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="3286" y-off="311" x-size="794" y-size="431"/>
+      <Window name="audio-midi-setup" visible="0" x-off="3000" y-off="665" x-size="794" y-size="431"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="3206" y-off="418" x-size="433" y-size="404"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -2636,38 +2069,6 @@
       <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-15833-15869" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-15833-15864" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-15833-15863" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-15833-15865" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-15833-15866" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-15869-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-15864-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-15863-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-15865-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-15866-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-438-469" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-438-470" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-438-9315" visible="0" x-off="2442" y-off="877" x-size="859" y-size="714" custom-ui="1"/>
-      <Window name="P-438-1693" visible="0" x-off="1925" y-off="875" x-size="754" y-size="341" custom-ui="1"/>
-      <Window name="P-438-2109" visible="0" x-off="1728" y-off="853" x-size="847" y-size="405" custom-ui="1"/>
-      <Window name="P-438-2159" visible="0" x-off="1662" y-off="861" x-size="979" y-size="388" custom-ui="1"/>
-      <Window name="P-438-2136" visible="0" x-off="1084" y-off="524" x-size="1650" y-size="786" custom-ui="1"/>
-      <Window name="P-438-2317" visible="0" x-off="97" y-off="952" x-size="878" y-size="377" custom-ui="1"/>
-      <Window name="P-438-468" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-438-8895" visible="0" x-off="1080" y-off="420" x-size="447" y-size="832" custom-ui="1"/>
-      <Window name="P-438-471" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-469-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-470-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-9315-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-1693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2109-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2159-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2136-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2317-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-468-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8895-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-471-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-15766-15797" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-15766-15798" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-15766-22881" visible="0" x-off="3053" y-off="736" x-size="859" y-size="714" custom-ui="1"/>
@@ -2690,6 +2091,38 @@
       <Window name="PM-15796-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27468-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15799-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-438-469" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-438-470" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-438-9315" visible="0" x-off="2442" y-off="877" x-size="859" y-size="714" custom-ui="1"/>
+      <Window name="P-438-1693" visible="0" x-off="1925" y-off="875" x-size="754" y-size="341" custom-ui="1"/>
+      <Window name="P-438-2109" visible="0" x-off="1728" y-off="853" x-size="847" y-size="405" custom-ui="1"/>
+      <Window name="P-438-2159" visible="0" x-off="1662" y-off="861" x-size="979" y-size="388" custom-ui="1"/>
+      <Window name="P-438-2136" visible="0" x-off="1084" y-off="524" x-size="1650" y-size="786" custom-ui="1"/>
+      <Window name="P-438-2317" visible="0" x-off="97" y-off="952" x-size="878" y-size="377" custom-ui="1"/>
+      <Window name="P-438-468" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-438-8895" visible="0" x-off="1080" y-off="420" x-size="447" y-size="832" custom-ui="1"/>
+      <Window name="P-438-471" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-469-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-470-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-9315-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-1693-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2109-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2159-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2136-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2317-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-468-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8895-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-471-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-15833-15869" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15833-15864" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15833-15863" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15833-15865" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-15833-15866" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-15869-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15864-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15863-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15865-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-15866-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2342-2373" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2342-13840" visible="0" x-off="1422" y-off="731" x-size="1578" y-size="478" custom-ui="1"/>
       <Window name="P-2342-8862" visible="0" x-off="1988" y-off="425" x-size="1173" y-size="761" custom-ui="1"/>
@@ -2703,12 +2136,10 @@
       <Window name="PM-2375-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2374-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2886-2917" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-2886-29202" visible="0" x-off="3000" y-off="641" x-size="1012" y-size="478" custom-ui="1"/>
       <Window name="P-2886-2916" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2886-2918" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2886-2919" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2917-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-29202-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2916-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2918-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2919-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -2749,7 +2180,6 @@
       <Window name="P-25571-25797" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-25571-25828" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-25571-27351" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-25571-29224" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-25571-25601" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-25571-25603" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-25571-25604" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -2760,10 +2190,13 @@
       <Window name="PM-25797-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-25828-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-27351-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-29224-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-25601-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-25603-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-25604-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-2886-29202" visible="0" x-off="3000" y-off="641" x-size="1012" y-size="478" custom-ui="1"/>
+      <Window name="PM-29202-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-25571-29224" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-29224-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="128" visible="1"/>
         <Object id="automation 58" height="128" visible="0"/>

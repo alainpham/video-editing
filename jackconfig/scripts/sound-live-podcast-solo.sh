@@ -10,7 +10,7 @@ sleep 2
 #sleep 10
 #echo "Restart pulseaudio"
 #pulseaudio -k
-sleep 10
+#sleep 10
 echo "Start alsa_out for dock"
 nohup alsa_out -j dock -d hw:PCH -r 44100 </dev/null >/dev/null 2>&1 &
 echo "Start alsa_in for H1 mic"
