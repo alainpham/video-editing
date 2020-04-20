@@ -44,9 +44,7 @@
   <UndoTransaction tv-sec="1587143679" tv-usec="651745" name="capture">
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Add id="13880"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
@@ -57,42 +55,19 @@
     </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1587143720" tv-usec="728489" name="Region end trim"/>
-  <UndoTransaction tv-sec="1587143722" tv-usec="407521" name="region drag">
-    <StatefulDiffCommand obj-id="13880" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="0" to="595320"/>
-        <beat from="0" to="26.998639455782314"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1587143731" tv-usec="241972" name="region drag">
-    <StatefulDiffCommand obj-id="13880" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="595320" to="476256"/>
-        <beat from="26.998639455782314" to="21.598911564625848"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
+  <UndoTransaction tv-sec="1587143722" tv-usec="407521" name="region drag"/>
+  <UndoTransaction tv-sec="1587143731" tv-usec="241972" name="region drag"/>
   <UndoTransaction tv-sec="1587160123" tv-usec="965313" name="capture">
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Add id="15603"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1587376474" tv-usec="231394" name="delete objects">
-    <StatefulDiffCommand obj-id="15603" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Remove id="13880"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -111,9 +86,7 @@
   <UndoTransaction tv-sec="1587376475" tv-usec="426151" name="delete objects">
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Remove id="15603"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -132,9 +105,7 @@
   <UndoTransaction tv-sec="1587376487" tv-usec="544540" name="capture">
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Add id="30839"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
@@ -237,9 +208,7 @@
   <UndoTransaction tv-sec="1587376525" tv-usec="474641" name="delete objects">
     <StatefulDiffCommand obj-id="480" type-name="ARDOUR::AudioPlaylist">
       <Changes>
-        <Regions>
-          <Remove id="30839"/>
-        </Regions>
+        <Regions/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
