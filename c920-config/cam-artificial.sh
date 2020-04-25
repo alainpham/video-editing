@@ -1,4 +1,4 @@
-chan=video2
+chan=video0
 
 v4l2-ctl -d /dev/$chan -c exposure_auto=1
 v4l2-ctl -d /dev/$chan -c exposure_absolute=300
