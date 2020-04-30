@@ -153,7 +153,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87104" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.16055741906166077"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.41731730103492737"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -175,7 +175,7 @@
       <Processor id="86" name="meter-Master" active="1" user-latency="0" type="meter"/>
       <Slavable/>
     </Route>
-    <Route id="2342" name="desktop" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak" saved-meter-point="MeterOutput" mode="Normal">
+    <Route id="2342" name="desktop" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak" processor-after-last-custom-meter="2375" saved-meter-point="MeterOutput" mode="Normal">
       <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="1900543"/>
       <Controllable name="solo" id="2350" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2356" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1273,8 +1273,8 @@
           <Connection other="h1-master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15845" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="87908" interpolation-style="Discrete" state="Off"/>
@@ -4012,7 +4012,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="874" y-size="516"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="2172" y-off="465" x-size="794" y-size="431"/>
+      <Window name="audio-midi-setup" visible="0" x-off="2206" y-off="722" x-size="794" y-size="431"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="3206" y-off="418" x-size="433" y-size="404"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -4037,7 +4037,7 @@
       <Window name="P-91236-91252" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91289" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91447" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-91236-91490" visible="0" x-off="2021" y-off="486" x-size="979" y-size="388" custom-ui="1"/>
+      <Window name="P-91236-91490" visible="0" x-off="2021" y-off="743" x-size="979" y-size="388" custom-ui="1"/>
       <Window name="P-91236-91521" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91555" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91556" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -4199,7 +4199,7 @@
       <Window name="PM-94002-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-40387-94260" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-94260-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-91236-94342" visible="0" x-off="2140" y-off="420" x-size="859" y-size="714" custom-ui="1"/>
+      <Window name="P-91236-94342" visible="0" x-off="2141" y-off="580" x-size="859" y-size="714" custom-ui="1"/>
       <Window name="PM-94342-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="94" visible="1"/>
@@ -4466,6 +4466,7 @@
           </Object>
           <Object id="processor 77848"/>
           <Object id="processor 77931"/>
+          <Object id="processor 2374"/>
         </Object>
         <Object id="strip 2412" strip-width="Wide" visible="1">
           <Object id="processor 2442"/>
