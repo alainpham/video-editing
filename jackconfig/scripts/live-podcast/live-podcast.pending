@@ -153,7 +153,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87104" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.16055741906166077"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.41731730103492737"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -1273,8 +1273,8 @@
           <Connection other="h1-master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15845" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="87908" interpolation-style="Discrete" state="Off"/>
