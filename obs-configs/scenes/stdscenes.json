@@ -179,7 +179,7 @@
             "libobs.unmute": []
         },
         "id": "pulse_input_capture",
-        "mixers": 255,
+        "mixers": 209,
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux 4",
@@ -196,8 +196,8 @@
         "versioned_id": "pulse_input_capture",
         "volume": 1.0
     },
-    "current_program_scene": "start-msg",
-    "current_scene": "start-msg",
+    "current_program_scene": "screen.big-cam",
+    "current_scene": "cam",
     "current_transition": "Fade",
     "groups": [
         {
@@ -846,14 +846,7 @@
     "preview_locked": false,
     "quick_transitions": [
         {
-            "duration": 300,
-            "fade_to_black": false,
-            "hotkeys": [],
-            "id": 1,
-            "name": "Cut"
-        },
-        {
-            "duration": 300,
+            "duration": 150,
             "fade_to_black": false,
             "hotkeys": [],
             "id": 2,
@@ -863,8 +856,8 @@
             "duration": 300,
             "fade_to_black": false,
             "hotkeys": [],
-            "id": 3,
-            "name": "Fade"
+            "id": 5,
+            "name": "Cut"
         }
     ],
     "saved_projectors": [],
@@ -895,7 +888,7 @@
             "name": "radio-show.big-cam"
         },
         {
-            "name": "presentation-big-cam"
+            "name": "presentation.big-cam"
         },
         {
             "name": "presentation.small-cam.spectral"
@@ -1088,7 +1081,7 @@
                     "size": 100,
                     "style": "Regular"
                 },
-                "text": "The show is about to start ..."
+                "text": "Please wait, the show is about to start ..."
             },
             "sync": 0,
             "versioned_id": "text_ft2_source_v2",
@@ -1102,10 +1095,10 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Screen Capture (XSHM)": [],
+                "libobs.hide_scene_item.screen-no-cursor": [],
                 "libobs.hide_scene_item.spectral-anim": [],
                 "libobs.hide_scene_item.webcam-01": [],
-                "libobs.show_scene_item.Screen Capture (XSHM)": [],
+                "libobs.show_scene_item.screen-no-cursor": [],
                 "libobs.show_scene_item.spectral-anim": [],
                 "libobs.show_scene_item.webcam-01": []
             },
@@ -1122,7 +1115,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 3,
+                "id_counter": 4,
                 "items": [
                     {
                         "align": 5,
@@ -1137,9 +1130,9 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 1,
+                        "id": 4,
                         "locked": false,
-                        "name": "Screen Capture (XSHM)",
+                        "name": "screen-no-cursor",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1147,8 +1140,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.2765957117080688,
+                            "y": 1.2765957117080688
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1209,7 +1202,7 @@
                             "y": 0.38405796885490417
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -1516,6 +1509,36 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Crop/Pad",
+                    "prev_ver": 419430404,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 73,
+                        "left": 37,
+                        "right": 379,
+                        "top": 161
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
             "hotkeys": {},
             "id": "xshm_input",
@@ -2609,7 +2632,7 @@
                     "size": 100,
                     "style": "Regular"
                 },
-                "text": "Introduction"
+                "text": "The Sandbox"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source_v2",
@@ -2758,7 +2781,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "presentation-big-cam",
+            "name": "presentation.big-cam",
             "prev_ver": 419430404,
             "private_settings": {},
             "push-to-mute": false,
@@ -2888,12 +2911,12 @@
                         "visible": true
                     },
                     {
-                        "align": 10,
+                        "align": 5,
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
-                        "bounds_align": 10,
+                        "bounds_align": 0,
                         "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
@@ -2904,14 +2927,14 @@
                         "locked": false,
                         "name": "screen-no-cursor",
                         "pos": {
-                            "x": 1348.0,
-                            "y": 807.0
+                            "x": 40.0,
+                            "y": 91.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.68593752384185791,
-                            "y": 0.68611109256744385
+                            "x": 0.86288410425186157,
+                            "y": 0.86288416385650635
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3111,7 +3134,7 @@
                             "y": 51.0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         },
                         "rot": 0.0,
                         "scale": {

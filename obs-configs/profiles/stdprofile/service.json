@@ -3,7 +3,7 @@
         "bwtest": false,
         "key": "163990307-YlSKpdZNAwed54CYU4OsDzjyffOjz1ix",
         "server": "rtmp://ingest-lon.mixer.com:1935/beam",
-        "service": "Mixer.com - RTMP"
+        "use_auth": false
     },
-    "type": "rtmp_common"
+    "type": "rtmp_custom"
 }
