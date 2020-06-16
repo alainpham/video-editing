@@ -18,4 +18,4 @@ nohup alsa_in -j H1-in -d hw:H1 -r 44100 </dev/null >/dev/null 2>&1 &
 echo "Start alsa_out for H1 mic"
 nohup alsa_out -j H1-out -d hw:H1 -r 44100 </dev/null >/dev/null 2>&1 &
 sleep 2
-nohup ardour5 live-podcast </dev/null >/dev/null 2>&1 &
+nohup ardour6 live-podcast </dev/null >/dev/null 2>&1 &

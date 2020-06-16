@@ -1,0 +1,2 @@
+killall ffmpeg
+killall ffplay
