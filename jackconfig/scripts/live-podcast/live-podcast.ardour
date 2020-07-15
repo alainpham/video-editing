@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="229663" name-counter="13" event-counter="14654" vca-counter="1">
+<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="229696" name-counter="13" event-counter="14672" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 6.0"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -136,6 +136,7 @@
     <Source name="mic-01-mono-69.wav" take-id="2020-07-15 12.34.45" type="audio" flags="" id="229556" timestamp="1594809285" natural-position="7208676" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
     <Source name="mic-01-mono-70.wav" take-id="2020-07-15 12.39.09" type="audio" flags="" id="229589" timestamp="1594809549" natural-position="8182399" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
     <Source name="mic-01-mono-71.wav" take-id="2020-07-15 12.51.21" type="audio" flags="" id="229622" timestamp="1594810281" natural-position="10127696" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
+    <Source name="mic-01-mono-72.wav" take-id="2020-07-15 13.08.13" type="audio" flags="" id="229662" timestamp="1594811293" natural-position="13845920" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="mic-pga48-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="377344" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="90987" type="audio" first-edit="nothing" source-0="89224" master-source-0="89224" channels="1"/>
@@ -273,6 +274,7 @@
     <Region name="mic-01-mono-69" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="682997" position="7208676" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229566" type="audio" first-edit="nothing" source-0="229556" master-source-0="229556" channels="1"/>
     <Region name="mic-01-mono-70" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1199093" position="8182399" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229599" type="audio" first-edit="nothing" source-0="229589" master-source-0="229589" channels="1"/>
     <Region name="mic-01-mono-71" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3216373" position="10127696" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229639" type="audio" first-edit="nothing" source-0="229622" master-source-0="229622" channels="1"/>
+    <Region name="mic-01-mono-72" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4715509" position="13845920" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229672" type="audio" first-edit="nothing" source-0="229662" master-source-0="229662" channels="1"/>
   </Regions>
   <Selection>
     <StripableAutomationControl stripable="30884" control="0" order="4"/>
@@ -344,7 +346,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87104" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.073709994554519653"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.038161501288414001"/>
       </Processor>
       <Processor id="86" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="87" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
@@ -2269,6 +2271,37 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
+      <Region name="mic-01-mono-72.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4715509" position="13845920" beat="627.93287981859419" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229680" type="audio" first-edit="nothing" source-0="229662" master-source-0="229662" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="229681" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="229682" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="229683" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="229684" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -2380,7 +2413,7 @@
       <Window name="P-91236-171227" visible="0" x-off="1704" y-off="868" x-size="771" y-size="238" custom-ui="1"/>
       <Window name="P-91236-121028" visible="0" x-off="2992" y-off="169" x-size="1225" y-size="541" custom-ui="1"/>
       <Window name="P-91236-111277" visible="0" x-off="2021" y-off="616" x-size="1205" y-size="388" custom-ui="1"/>
-      <Window name="P-91236-111307" visible="1" x-off="3000" y-off="761" x-size="1106" y-size="908" custom-ui="1"/>
+      <Window name="P-91236-111307" visible="0" x-off="3000" y-off="984" x-size="1106" y-size="908" custom-ui="1"/>
       <Window name="P-91236-176451" visible="0" x-off="2040" y-off="420" x-size="960" y-size="547" custom-ui="1"/>
       <Window name="PM-91236-91289" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-91236-171227" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
