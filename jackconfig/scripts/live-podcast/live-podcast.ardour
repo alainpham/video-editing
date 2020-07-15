@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="229590" name-counter="13" event-counter="14532" vca-counter="1">
+<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="229663" name-counter="13" event-counter="14654" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 6.0"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -134,6 +134,8 @@
     <Source name="mic-01-mono-67.wav" take-id="2020-06-15 19.06.43" type="audio" flags="" id="215290" timestamp="1592240803" natural-position="4666248" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
     <Source name="mic-01-mono-68.wav" take-id="2020-07-15 12.33.46" type="audio" flags="" id="229393" timestamp="1594809226" natural-position="6125220" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
     <Source name="mic-01-mono-69.wav" take-id="2020-07-15 12.34.45" type="audio" flags="" id="229556" timestamp="1594809285" natural-position="7208676" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
+    <Source name="mic-01-mono-70.wav" take-id="2020-07-15 12.39.09" type="audio" flags="" id="229589" timestamp="1594809549" natural-position="8182399" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
+    <Source name="mic-01-mono-71.wav" take-id="2020-07-15 12.51.21" type="audio" flags="" id="229622" timestamp="1594810281" natural-position="10127696" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="mic-pga48-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="377344" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="90987" type="audio" first-edit="nothing" source-0="89224" master-source-0="89224" channels="1"/>
@@ -269,13 +271,15 @@
     <Region name="mic-01-mono-67" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1227765" position="4666248" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="215522" type="audio" first-edit="nothing" source-0="215290" master-source-0="215290" channels="1"/>
     <Region name="mic-01-mono-68" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="906229" position="6125220" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229533" type="audio" first-edit="nothing" source-0="229393" master-source-0="229393" channels="1"/>
     <Region name="mic-01-mono-69" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="682997" position="7208676" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229566" type="audio" first-edit="nothing" source-0="229556" master-source-0="229556" channels="1"/>
+    <Region name="mic-01-mono-70" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1199093" position="8182399" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229599" type="audio" first-edit="nothing" source-0="229589" master-source-0="229589" channels="1"/>
+    <Region name="mic-01-mono-71" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3216373" position="10127696" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229639" type="audio" first-edit="nothing" source-0="229622" master-source-0="229622" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="91236" control="0" order="3"/>
+    <StripableAutomationControl stripable="30884" control="0" order="4"/>
   </Selection>
   <Locations>
     <Location id="87084" name="session" start="0" end="34683772" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1591775937"/>
-    <Location id="97783" name="Loop" start="1877580" end="3669872" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1591775937"/>
+    <Location id="97783" name="Loop" start="8354768" end="9381492" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1591775937"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -340,7 +344,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87104" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.098921462893486023"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.073709994554519653"/>
       </Processor>
       <Processor id="86" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="87" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
@@ -758,8 +762,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15845" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="87908" interpolation-style="Discrete" state="Off"/>
@@ -940,7 +944,7 @@
       <Controllable name="rec-safe" id="30922" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="30920" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="91236" name="mic-01-mono" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPreFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak0dB" audio-playlist="91598" saved-meter-point="MeterInput" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="91236" name="mic-01-mono" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak0dB" audio-playlist="91598" saved-meter-point="MeterInput" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="1437226495"/>
       <Controllable name="solo" id="91203" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="91592" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -992,6 +996,7 @@
           <AutomationList automation-id="pan-lfe" id="91591" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
+      <Processor id="91252" name="meter-Audio" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="91597" name="mic-01-mono" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="no"/>
       <Processor id="91597" name="mic-01-mono" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="206968" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
@@ -1057,7 +1062,7 @@
         <Controllable name="Residual listen" id="91287" flags="Toggle" value="0" parameter="9" symbol="Residual_listen"/>
         <Controllable name="hidden" id="91288" flags="Toggle" value="1" parameter="10" symbol="enable"/>
       </Processor>
-      <Processor id="171227" name="a-Amplifier" active="1" user-latency="0" use-user-latency="0" type="luaproc" unique-id="10845fe3e9430f11fe229b9d7a032f76f543b4a4" count="1" custom="0">
+      <Processor id="171227" name="a-Amplifier" active="0" user-latency="0" use-user-latency="0" type="luaproc" unique-id="10845fe3e9430f11fe229b9d7a032f76f543b4a4" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-0" id="171228" interpolation-style="Linear" state="Off"/>
         </Automation>
@@ -1078,11 +1083,11 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <luaproc last-preset-uri="urn:lua:8a8394fbd66d84fdefc5bdc51e6bbc46516e8a38" last-preset-label="gm55-90" parameter-changed-since-last-preset="0">
+        <luaproc last-preset-uri="urn:lua:9636c11934acef07d334d4f462f03df59d9040d3" last-preset-label="gm55-100" parameter-changed-since-last-preset="1">
           <script lua="Lua 5.3" origin="">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJhLUFtcGxpZmllciIsCgljYXRlZ29yeSAgICA9ICJBbXBsaWZpZXIiLAoJbGljZW5zZSAgICAgPSAiTUlUIiwKCWF1dGhvciAgICAgID0gIkFyZG91ciBUZWFtIiwKCWRlc2NyaXB0aW9uID0gW1tWZXJzYXRpbGUgKy8tIDIwZEIgbXVsdGljaGFubmVsIGFtcGxpZmllcl1dCn0KCmZ1bmN0aW9uIGRzcF9pb2NvbmZpZyAoKQoJcmV0dXJuCgl7CgkJLS0gLTEsIC0xID0gYW55IG51bWJlciBvZiBjaGFubmVscyBhcyBsb25nIGFzIGlucHV0IGFuZCBvdXRwdXQgY291bnQgbWF0Y2hlcwoJCXsgYXVkaW9faW4gPSAtMSwgYXVkaW9fb3V0ID0gLTF9LAoJfQplbmQKCgpmdW5jdGlvbiBkc3BfcGFyYW1zICgpCglyZXR1cm4KCXsKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJHYWluIiwgbWluID0gLTIwLCBtYXggPSAyMCwgZGVmYXVsdCA9IDAsIHVuaXQ9ImRCIn0sCgl9CmVuZAoKbG9jYWwgbHBmID0gMC4wMiAtLSBwYXJhbWV0ZXIgbG93LXBhc3MgZmlsdGVyIHRpbWUtY29uc3RhbnQKbG9jYWwgY3VyX2dhaW4gPSAwIC0tIGN1cnJlbnQgc21vb3RoZWQgZ2FpbiAoZEIpCgotLSBjYWxsZWQgb25jZSB3aGVuIHBsdWdpbiBpcyBpbnN0YW50aWF0ZWQKZnVuY3Rpb24gZHNwX2luaXQgKHJhdGUpCglscGYgPSA3ODAgLyByYXRlIC0tIGludGVycG9sYXRpb24gdGltZSBjb25zdGFudAplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIHRoZSBEU1AgY2FsbGJhY2sgZnVuY3Rpb24KLS0gImlucyIgYW5kICJvdXRzIiBhcmUgaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDOkZsb2F0QXJyYXkKZnVuY3Rpb24gZHNwX3J1biAoaW5zLCBvdXRzLCBuX3NhbXBsZXMpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5KCkgLS0gZ2V0IGNvbnRyb2wgcG9ydCBhcnJheSAocmVhZC93cml0ZSkKCWxvY2FsIHNpeiA9IG5fc2FtcGxlcyAtLSBzYW1wbGVzIHJlbWFpbmluZyB0byBwcm9jZXNzCglsb2NhbCBvZmYgPSAwIC0tIGFscmVhZHkgcHJvY2Vzc2VkIHNhbXBsZXMKCWxvY2FsIGNoYW5nZWQgPSBmYWxzZQoKCS0tIGlmIHRoZSBnYWluIHBhcmFtZXRlciB3YXMgY2hhbmdlZCwgcHJvY2VzcyBhdCBtb3N0IDMyIHNhbXBsZXMgYXQgYSB0aW1lCgktLSBhbmQgaW50ZXJwb2xhdGUgZ2FpbiB1bnRpbCB0aGUgY3VycmVudCBzZXR0aW5ncyBtYXRjaCB0aGUgdGFyZ2V0IHZhbHVlcwoJaWYgY3VyX2dhaW4gfj0gY3RybFsxXSB0aGVuCgkJY2hhbmdlZCA9IHRydWUKCQlzaXogPSAzMgoJZW5kCgoJd2hpbGUgbl9zYW1wbGVzID4gMCBkbwoJCWlmIHNpeiA+IG5fc2FtcGxlcyB0aGVuIHNpeiA9IG5fc2FtcGxlcyBlbmQgLS0gcHJvY2VzcyBhdCBtb3N0ICJyZW1haW5pbmcgc2FtcGxlcyIKCQlpZiBjaGFuZ2VkIHRoZW4KCQkJLS0gc21vb3RoIGdhaW4gY2hhbmdlcyBhYm92ZSAwLjAyIGRCIGRpZmZlcmVuY2UKCQkJY3VyX2dhaW4gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cl9nYWluLCBjdHJsWzFdLCAwLjAyKQoJCWVuZAoKCQlsb2NhbCBnYWluID0gQVJET1VSLkRTUC5kQl90b19jb2VmZmljaWVudCAoY3VyX2dhaW4pIC0tIDEwIF4gKDAuMDUgKiBjdXJfZ2FpbikKCgkJZm9yIGMgPSAxLCNpbnMgZG8gLS0gcHJvY2VzcyBhbGwgY2hhbm5lbHMKCQkJLS0gY2hlY2sgaWYgb3V0cHV0IGFuZCBpbnB1dCBidWZmZXJzIGZvciB0aGlzIGNoYW5uZWwgYXJlIGlkZW50aWNhbAoJCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0M6RmxvYXRBcnJheQoJCQlpZiBpbnNbY10gfj0gb3V0c1tjXSB0aGVuCgkJCQktLSBodHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0FSRE9VUjpEU1AKCQkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBpbnNbY106b2Zmc2V0IChvZmYpLCBzaXopCgkJCWVuZAoJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCBnYWluKTsgLS0gYXBwbHktZ2FpbiwgcHJvY2VzcyBpbi1wbGFjZQoJCWVuZAoJCW5fc2FtcGxlcyA9IG5fc2FtcGxlcyAtIHNpegoJCW9mZiA9IG9mZiArIHNpegoJZW5kCgotLVtbCglpZiBjaGFuZ2VkIHRoZW4KCQlzZWxmOnF1ZXVlX2RyYXcgKCkgLS0gbm90aWZ5IGRpc3BsYXkKCWVuZAotLV1dCmVuZAoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQotLS0gaW5saW5lIGRpc3BsYXkgKyB0ZXh0IGV4YW1wbGUKCi0tW1sKbG9jYWwgdHh0ID0gbmlsIC0tIGNhY2hlIHBhbmdvIGNvbnRleHQgZ2xvYmFsbHkKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5ICgpIC0tIGdldCBjb250cm9sIHBvcnRzCgoJaWYgbm90IHR4dCB0aGVuCgkJLS0gYWxsb2NhdGUgUGFuZ29MYXlvdXQgYW5kIHNldCBmb250CgkJLS1odHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0NhaXJvOlBhbmdvTGF5b3V0CgkJdHh0ID0gQ2Fpcm8uUGFuZ29MYXlvdXQgKGN0eCwgIk1vbm8gOHB4IikKCWVuZAoKCXR4dDpzZXRfdGV4dCAoc3RyaW5nLmZvcm1hdCAoIiUrLjJmIGRCIiwgY3RybFsxXSkpOwoJdHcsIHRoID0gdHh0OmdldF9waXhlbF9zaXplICgpCgoJbG9jYWwgaCA9IHRoICsgNCAtLSB1c2UgdGV4dC1oZWlnaHQgd2l0aCA0cHggcGFkZGluZwoJaWYgKGggPiBtYXhfaCkgdGhlbiBoID0gbWF4X2ggZW5kIC0tIGJ1dCBhdCBtb3N0IG1heC1oZWlnaHQKCgktLSBjbGVhciBiYWNrZ3JvdW5kCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjIsIC4yLCAuMiwgMS4wKQoJY3R4OmZpbGwgKCkKCgktLSBjZW50ZXIgdGV4dAoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjgsIC44LCAuOCwgMS4wKQoJY3R4Om1vdmVfdG8gKC41ICogKHcgLSB0dyksIC41ICogKGggLSB0aCkpCgl0eHQ6c2hvd19pbl9jYWlyb19jb250ZXh0IChjdHgpCgoJcmV0dXJuIHt3LCBofQplbmQKLS1dXQo=</script>
-          <Port id="0" value="4"/>
+          <Port id="0" value="6"/>
         </luaproc>
-        <Controllable name="Gain" id="171229" flags="" value="4" parameter="0"/>
+        <Controllable name="Gain" id="171229" flags="" value="6" parameter="0"/>
       </Processor>
       <Processor id="121028" name="LSP Gate Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://lsp-plug.in/plugins/lv2/gate_mono" count="1" custom="0">
         <Automation>
@@ -1476,7 +1481,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-06.lv2/gm55-06.ttl" last-preset-label="gm55-06" parameter-changed-since-last-preset="0">
+        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-06.lv2/gm55-06.ttl" last-preset-label="gm55-06" parameter-changed-since-last-preset="1">
           <Port symbol="enabled" value="1"/>
           <Port symbol="mode" value="1"/>
           <Port symbol="g_in" value="1"/>
@@ -1485,7 +1490,7 @@
           <Port symbol="g_wet" value="1"/>
           <Port symbol="react" value="0.20000000298023224"/>
           <Port symbol="shift" value="1"/>
-          <Port symbol="zoom" value="1"/>
+          <Port symbol="zoom" value="0.28964748978614807"/>
           <Port symbol="envb" value="0"/>
           <Port symbol="bsel" value="8"/>
           <Port symbol="flt" value="1"/>
@@ -1682,7 +1687,7 @@
         <Controllable name="Wet gain" id="110666" flags="" value="1" parameter="7" symbol="g_wet"/>
         <Controllable name="FFT reactivity" id="110668" flags="" value="0.20000000298023224" parameter="8" symbol="react"/>
         <Controllable name="Shift gain" id="110670" flags="" value="1" parameter="9" symbol="shift"/>
-        <Controllable name="Graph zoom" id="110672" flags="" value="1" parameter="10" symbol="zoom"/>
+        <Controllable name="Graph zoom" id="110672" flags="" value="0.28964748978614807" parameter="10" symbol="zoom"/>
         <Controllable name="Envelope boost" id="110674" flags="" value="0" parameter="11" symbol="envb"/>
         <Controllable name="Band selection" id="110676" flags="" value="8" parameter="12" symbol="bsel"/>
         <Controllable name="Band filter curves" id="110678" flags="Toggle" value="1" parameter="13" symbol="flt"/>
@@ -1951,7 +1956,6 @@
         <Controllable name="Sidechain graph visibility" id="176487" flags="Toggle" value="1" parameter="19" symbol="scgv"/>
         <Controllable name="Gain graph visibility" id="176489" flags="Toggle" value="0" parameter="20" symbol="grgv"/>
       </Processor>
-      <Processor id="91252" name="meter-Audio" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="91556" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="91198" interpolation-style="Linear" state="Off"/>
@@ -2203,6 +2207,68 @@
           </AutomationList>
         </InverseFadeOut>
       </Region>
+      <Region name="mic-01-mono-70.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1199093" position="8182399" beat="371.08385487528341" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229607" type="audio" first-edit="nothing" source-0="229589" master-source-0="229589" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="229608" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="229609" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="229610" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="229611" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="mic-01-mono-71.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3216373" position="10127696" beat="459.30594104308386" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229647" type="audio" first-edit="nothing" source-0="229622" master-source-0="229622" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="229648" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="229649" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="229650" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="229651" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -2314,7 +2380,7 @@
       <Window name="P-91236-171227" visible="0" x-off="1704" y-off="868" x-size="771" y-size="238" custom-ui="1"/>
       <Window name="P-91236-121028" visible="0" x-off="2992" y-off="169" x-size="1225" y-size="541" custom-ui="1"/>
       <Window name="P-91236-111277" visible="0" x-off="2021" y-off="616" x-size="1205" y-size="388" custom-ui="1"/>
-      <Window name="P-91236-111307" visible="1" x-off="2546" y-off="687" x-size="1106" y-size="908" custom-ui="1"/>
+      <Window name="P-91236-111307" visible="1" x-off="3000" y-off="761" x-size="1106" y-size="908" custom-ui="1"/>
       <Window name="P-91236-176451" visible="0" x-off="2040" y-off="420" x-size="960" y-size="547" custom-ui="1"/>
       <Window name="PM-91236-91289" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-91236-171227" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
