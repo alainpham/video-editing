@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="229696" name-counter="13" event-counter="14672" vca-counter="1">
-  <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 6.0"/>
+<Session version="6000" name="live-podcast" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="232159" name-counter="13" event-counter="14677" vca-counter="1">
+  <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 6.2"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
     <Port name="MMC in" direction="input"/>
@@ -276,9 +276,7 @@
     <Region name="mic-01-mono-71" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3216373" position="10127696" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229639" type="audio" first-edit="nothing" source-0="229622" master-source-0="229622" channels="1"/>
     <Region name="mic-01-mono-72" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4715509" position="13845920" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="229672" type="audio" first-edit="nothing" source-0="229662" master-source-0="229662" channels="1"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="30884" control="0" order="4"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="87084" name="session" start="0" end="34683772" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1591775937"/>
     <Location id="97783" name="Loop" start="8354768" end="9381492" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1591775937"/>
@@ -1483,7 +1481,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-06.lv2/gm55-06.ttl" last-preset-label="gm55-06" parameter-changed-since-last-preset="1">
+        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-06.lv2/gm55-06.ttl" last-preset-label="gm55-06" parameter-changed-since-last-preset="0">
           <Port symbol="enabled" value="1"/>
           <Port symbol="mode" value="1"/>
           <Port symbol="g_in" value="1"/>
@@ -1494,7 +1492,7 @@
           <Port symbol="shift" value="1"/>
           <Port symbol="zoom" value="0.28964748978614807"/>
           <Port symbol="envb" value="0"/>
-          <Port symbol="bsel" value="8"/>
+          <Port symbol="bsel" value="1"/>
           <Port symbol="flt" value="1"/>
           <Port symbol="ife" value="1"/>
           <Port symbol="ofe" value="1"/>
@@ -1523,7 +1521,7 @@
           <Port symbol="cm_0" value="0"/>
           <Port symbol="ce_0" value="1"/>
           <Port symbol="bs_0" value="0"/>
-          <Port symbol="bm_0" value="1"/>
+          <Port symbol="bm_0" value="0"/>
           <Port symbol="al_0" value="0.25119000673294067"/>
           <Port symbol="at_0" value="20"/>
           <Port symbol="rrl_0" value="0"/>
@@ -1691,7 +1689,7 @@
         <Controllable name="Shift gain" id="110670" flags="" value="1" parameter="9" symbol="shift"/>
         <Controllable name="Graph zoom" id="110672" flags="" value="0.28964748978614807" parameter="10" symbol="zoom"/>
         <Controllable name="Envelope boost" id="110674" flags="" value="0" parameter="11" symbol="envb"/>
-        <Controllable name="Band selection" id="110676" flags="" value="8" parameter="12" symbol="bsel"/>
+        <Controllable name="Band selection" id="110676" flags="" value="1" parameter="12" symbol="bsel"/>
         <Controllable name="Band filter curves" id="110678" flags="Toggle" value="1" parameter="13" symbol="flt"/>
         <Controllable name="Input FFT graph enable" id="110680" flags="Toggle" value="1" parameter="14" symbol="ife"/>
         <Controllable name="Output FFT graph enable" id="110682" flags="Toggle" value="1" parameter="15" symbol="ofe"/>
@@ -1720,7 +1718,7 @@
         <Controllable name="Compression mode 0" id="110728" flags="" value="0" parameter="40" symbol="cm_0"/>
         <Controllable name="Compressor enable 0" id="110730" flags="Toggle" value="1" parameter="41" symbol="ce_0"/>
         <Controllable name="Solo band 0" id="110732" flags="Toggle" value="0" parameter="42" symbol="bs_0"/>
-        <Controllable name="Mute band 0" id="110734" flags="Toggle" value="1" parameter="43" symbol="bm_0"/>
+        <Controllable name="Mute band 0" id="110734" flags="Toggle" value="0" parameter="43" symbol="bm_0"/>
         <Controllable name="Attack level 0" id="110736" flags="" value="0.25119000673294067" parameter="44" symbol="al_0"/>
         <Controllable name="Attack time 0" id="110738" flags="" value="20" parameter="45" symbol="at_0"/>
         <Controllable name="Relative release level 0" id="110740" flags="" value="0" parameter="46" symbol="rrl_0"/>
@@ -2365,19 +2363,19 @@
     <Meter pulse="0" frame="0" movable="0" lock-style="AudioTime" bbt="1|1|0" beat="0" note-type="4" divisions-per-bar="4"/>
   </TempoMap>
   <ControlProtocols>
+    <Protocol name="Ableton Push 2" active="0" session-state="0"/>
     <Protocol name="ContourDesign" active="0" session-state="0"/>
     <Protocol name="Generic MIDI" active="0" session-state="0"/>
-    <Protocol name="PreSonus FaderPort8" active="0" session-state="0"/>
-    <Protocol name="WebSockets Server (Experimental)" active="0" session-state="0"/>
-    <Protocol name="PreSonus FaderPort2" active="0" session-state="0"/>
-    <Protocol name="PreSonus FaderPort" active="0" session-state="0"/>
-    <Protocol name="Tascam US-2400" active="0" session-state="0"/>
-    <Protocol name="Open Sound Control (OSC)" active="0" session-state="0"/>
-    <Protocol name="PreSonus FaderPort16" active="0" session-state="0"/>
-    <Protocol name="Novation Launch Control XL" active="0" session-state="0"/>
-    <Protocol name="Ableton Push 2" active="0" session-state="0"/>
-    <Protocol name="Steinberg CC121" active="0" session-state="0"/>
     <Protocol name="Mackie" active="0" session-state="0"/>
+    <Protocol name="Novation Launch Control XL" active="0" session-state="0"/>
+    <Protocol name="Open Sound Control (OSC)" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort16" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort2" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0" session-state="0"/>
+    <Protocol name="Steinberg CC121" active="0" session-state="0"/>
+    <Protocol name="Tascam US-2400" active="0" session-state="0"/>
+    <Protocol name="WebSockets Server (Experimental)" active="0" session-state="0"/>
   </ControlProtocols>
   <Extra>
     <RulerVisibility timecode="1" bbt="1" samples="0" minsec="0" tempo="1" meter="1" marker="1" rangemarker="1" transportmarker="1" cdmarker="0" videotl="0"/>
@@ -2386,7 +2384,7 @@
       <Window name="session-options-editor" visible="0" x-off="1080" y-off="867" x-size="844" y-size="379"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="629"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="689" y-size="495"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="674" y-size="495"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
