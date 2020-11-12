@@ -1,7 +1,6 @@
 
-cam_list="video0 video2 video4"
+cam_list="video0 video2 video4 video6"
 
-chan=video2
 for chan in $cam_list
 do
 	v4l2-ctl -d /dev/$chan -c exposure_auto=1

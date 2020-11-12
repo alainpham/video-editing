@@ -1,11 +1,26 @@
-load-module module-jack-source client_name=main-mic channels=2 connect=0
-load-module module-jack-source client_name=obs-mic1 channels=1 connect=0
-load-module module-jack-source client_name=obs-mic2 channels=2 connect=0
-load-module module-jack-source client_name=obs-desktop channels=2 connect=0
-load-module module-jack-source client_name=obs-caller channels=2 connect=0
+load-module module-jack-source client_name=from-jack-mic1-to-pulse channels=2 connect=0
+load-module module-jack-source client_name=from-jack-for-pulse-caller channels=2 connect=0
+load-module module-jack-source client_name=to-obs-mic1 channels=1 connect=0
+load-module module-jack-source client_name=to-obs-mic2 channels=1 connect=0
+load-module module-jack-source client_name=to-obs-desktop channels=2 connect=0
+load-module module-jack-source client_name=to-obs-caller channels=2 connect=0
 load-module module-jack-source client_name=pulse-vis channels=2 connect=0
-load-module module-jack-source client_name=pulse-mixxx channels=2 connect=0
-load-module module-jack-sink sink_name=caller-audio client_name=caller-audio channels=2 connect=0
-load-module module-jack-sink sink_name=pulse-main client_name=pulse-main channels=2 connect=0
+load-module module-jack-sink sink_name=from-pulse-caller-to-jack client_name=from-pulse-caller-to-jack channels=2 connect=0
+load-module module-jack-sink sink_name=from-pulse-desktop-to-jack client_name=from-pulse-desktop-to-jack channels=2 connect=0
 
 
+
+
+
+pactl load-module module-jack-source client_name=from-jack-mic1-to-pulse channels=2 connect=0;
+pactl load-module module-jack-source client_name=from-jack-for-pulse-caller channels=2 connect=0;
+pactl load-module module-jack-source client_name=to-obs-mic1 channels=1 connect=0;
+pactl load-module module-jack-source client_name=to-obs-mic2 channels=1 connect=0;
+pactl load-module module-jack-source client_name=to-obs-desktop channels=2 connect=0;
+pactl load-module module-jack-source client_name=to-obs-caller channels=2 connect=0;
+pactl load-module module-jack-source client_name=pulse-vis channels=2 connect=0;
+pactl load-module module-jack-sink sink_name=from-pulse-caller-to-jack client_name=from-pulse-caller-to-jack channels=2 connect=0;
+pactl load-module module-jack-sink sink_name=from-pulse-desktop-to-jack client_name=from-pulse-desktop-to-jack channels=2 connect=0;
+pacmd set-default-sink from-pulse-desktop-to-jack;
+pacmd set-default-source from-jack-mic1-to-pulse;
+nohup zita-j2a -d hw:dock >/dev/null 2>&1 &
