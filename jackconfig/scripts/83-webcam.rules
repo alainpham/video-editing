@@ -1,0 +1,1 @@
+SUBSYSTEM=="video4linux",ATTR{index}=="0", DEVPATH=="/devices/pci0000:00/0000:00:1d.0/0000:07:00.0/0000:08:01.0/0000:0a:00.0/0000:0b:02.0/0000:0e:00.0/usb5/5-3/5-3:1.0/video4linux/video?", NAME="video9"
