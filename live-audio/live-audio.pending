@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-audio" sample-rate="44100" end-is-free="0" id-counter="228032" name-counter="13" event-counter="13676" vca-counter="1">
+<Session version="3002" name="live-audio" sample-rate="44100" end-is-free="0" id-counter="243059" name-counter="13" event-counter="13688" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -269,7 +269,7 @@
     <Region name="mic-01-mono-57" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="467236" position="3896748" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="189242" type="audio" first-edit="nothing" source-0="189229" master-source-0="189229" channels="1"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="210318" control="0" order="3"/>
+    <StripableAutomationControl stripable="2342" control="0" order="1"/>
   </Selection>
   <Locations>
     <Location id="87084" name="session" start="0" end="34683772" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -279,7 +279,7 @@
   <VCAManager/>
   <Routes>
     <Route id="54" name="Master" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB">
-      <PresentationInfo order="0" flags="MasterOut,OrderSet" color="4222009087"/>
+      <PresentationInfo order="1" flags="MasterOut,OrderSet" color="4222009087"/>
       <Controllable name="solo" id="62" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="68" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="70" flags="Toggle" value="0" solo-safe="0"/>
@@ -333,7 +333,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87104" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.0099933454766869545"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.01795474998652935"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -356,13 +356,14 @@
       <Slavable/>
     </Route>
     <Route id="2342" name="desktop" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB" processor-after-last-custom-meter="2375" saved-meter-point="MeterOutput" mode="Normal">
-      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="1900543"/>
+      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="1900543"/>
       <Controllable name="solo" id="2350" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2356" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2358" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="desktop" id="2370" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="desktop/audio_in 1">
           <Connection other="from-pulse-desktop-to-jack:front-left"/>
+          <Connection other="vlc:vlc_out_1"/>
         </Port>
         <Port type="audio" name="desktop/audio_in 2">
           <Connection other="from-pulse-desktop-to-jack:front-right"/>
@@ -579,7 +580,7 @@
       <Diskstream flags="Recordable" playlist="desktop.1" name="desktop" id="2383" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="2886" name="from-caller" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak0dB" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="4278197247"/>
+      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="4278197247"/>
       <Controllable name="solo" id="2894" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2900" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2902" flags="Toggle" value="0" solo-safe="0"/>
@@ -802,7 +803,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="87552" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="13931" flags="GainLike" value="0.033353880047798157"/>
+        <Controllable name="gaincontrol" id="13931" flags="GainLike" value="0.6281890869140625"/>
       </Processor>
       <Processor id="13960" name="dock-master" active="1" user-latency="0" own-input="1" own-output="0" output="dock-master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -825,7 +826,7 @@
       <Slavable/>
     </Route>
     <Route id="15700" name="to-caller-master" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB">
-      <PresentationInfo order="5" flags="AudioBus,OrderSet" color="2248147711"/>
+      <PresentationInfo order="6" flags="AudioBus,OrderSet" color="2248147711"/>
       <Controllable name="solo" id="15708" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15714" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="15716" flags="Toggle" value="0" solo-safe="0"/>
@@ -909,7 +910,7 @@
       <Slavable/>
     </Route>
     <Route id="15833" name="mic-monitor" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPreFader" meter-type="MeterPeak0dB" processor-after-last-custom-meter="15863">
-      <PresentationInfo order="2" flags="AudioBus,OrderSet" color="4522239"/>
+      <PresentationInfo order="3" flags="AudioBus,OrderSet" color="4522239"/>
       <Controllable name="solo" id="15841" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15847" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="15849" flags="Toggle" value="0" solo-safe="0"/>
@@ -929,8 +930,8 @@
           <Connection other="pre-master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="15843" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="15845" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="87908" interpolation-style="Discrete" state="Off"/>
@@ -1019,7 +1020,7 @@
       </Processor>
       <Slavable/>
     </Route>
-    <Route id="22813" name="h1-master" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB">
+    <Route id="22813" name="h1-master" default-type="audio" strict-io="1" active="0" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB">
       <PresentationInfo order="8" flags="AudioBus,OrderSet" color="255"/>
       <Controllable name="solo" id="22786" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="22853" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1098,7 +1099,7 @@
       <Slavable/>
     </Route>
     <Route id="91236" name="mic-01-mono" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak0dB" saved-meter-point="MeterInput" mode="Normal">
-      <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="1437226495"/>
+      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="1437226495"/>
       <Controllable name="solo" id="91203" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="91592" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="91593" flags="Toggle" value="0" solo-safe="0"/>
@@ -2177,7 +2178,7 @@
       <Diskstream flags="Recordable" playlist="mic-01-mono" name="mic-01-mono" id="91597" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="210318" name="pre-master" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterOutput" meter-type="MeterPeak0dB">
-      <PresentationInfo order="6" flags="AudioBus,OrderSet" color="4222009087"/>
+      <PresentationInfo order="0" flags="AudioBus,OrderSet" color="4222009087"/>
       <Controllable name="solo" id="210326" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="210332" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="210334" flags="Toggle" value="0" solo-safe="0"/>
@@ -2452,14 +2453,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="48" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="47" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="49" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="48" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -2491,7 +2492,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="681" y-size="491"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="1171" y-off="455" x-size="620" y-size="716"/>
-      <Window name="audio-midi-setup" visible="0" x-off="204" y-off="321" x-size="655" y-size="410"/>
+      <Window name="audio-midi-setup" visible="0" x-off="220" y-off="0" x-size="655" y-size="410"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="1197" y-off="70" x-size="361" y-size="340"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -2500,23 +2501,15 @@
       <Window name="audio-connection-manager" visible="0" x-off="1163" y-off="420" x-size="675" y-size="701"/>
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-210318" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-91236" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-15833" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-2342" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-2886" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-15700" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-210318" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-13927" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-22813" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54-87" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-85-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-210318-210354" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-210318-210349" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-210318-210348" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -2527,6 +2520,28 @@
       <Window name="PM-210348-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-210351-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-210350-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-2342-2373" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-2342-183065" visible="0" x-off="1080" y-off="497" x-size="743" y-size="221" custom-ui="1"/>
+      <Window name="P-2342-13840" visible="0" x-off="1422" y-off="731" x-size="1578" y-size="478" custom-ui="1"/>
+      <Window name="P-2342-8862" visible="0" x-off="1988" y-off="425" x-size="1173" y-size="761" custom-ui="1"/>
+      <Window name="P-2342-2372" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-2342-2375" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-2342-2374" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-2373-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-183065-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-13840-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-8862-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2372-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2375-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-2374-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-54-87" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-85-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-91236-91250" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91252" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-91289" visible="0" x-off="1179" y-off="865" x-size="782" y-size="341" custom-ui="1"/>
@@ -2561,20 +2576,6 @@
       <Window name="PM-15865-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15863-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-15866-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-2342-2373" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-2342-183065" visible="0" x-off="1080" y-off="497" x-size="743" y-size="221" custom-ui="1"/>
-      <Window name="P-2342-13840" visible="0" x-off="1422" y-off="731" x-size="1578" y-size="478" custom-ui="1"/>
-      <Window name="P-2342-8862" visible="0" x-off="1988" y-off="425" x-size="1173" y-size="761" custom-ui="1"/>
-      <Window name="P-2342-2372" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-2342-2375" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-2342-2374" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-2373-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-183065-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-13840-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-8862-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2372-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2375-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-2374-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2886-2917" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-2886-183177" visible="0" x-off="1080" y-off="497" x-size="743" y-size="221" custom-ui="1"/>
       <Window name="P-2886-29202" visible="0" x-off="3000" y-off="641" x-size="1012" y-size="478" custom-ui="1"/>

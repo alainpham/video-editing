@@ -10,6 +10,6 @@ pactl load-module module-jack-sink sink_name=from-pulse-caller-to-jack client_na
 pactl load-module module-jack-sink sink_name=from-pulse-desktop-to-jack client_name=from-pulse-desktop-to-jack channels=2 connect=0
 pacmd set-default-sink from-pulse-desktop-to-jack
 pacmd set-default-source from-jack-mic1-to-pulse
-nohup zita-j2a -d hw:dock >/dev/null 2>&1 &
+nohup zita-j2a -S  -r 44100 -p 1024 -d hw:dock >/dev/null 2>&1 &
 sleep 4
 nohup ardour5 /home/workdrive/TAZONE/WORKSPACES/ws-video/video-production/live-audio/ >/dev/null 2>&1 &
