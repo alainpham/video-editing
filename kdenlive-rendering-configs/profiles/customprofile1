@@ -1,0 +1,11 @@
+description=00-SAMSUNGNX-HD-1920-810
+frame_rate_num=24
+frame_rate_den=1
+width=1920
+height=810
+progressive=1
+sample_aspect_num=1
+sample_aspect_den=1
+display_aspect_num=1920
+display_aspect_den=810
+colorspace=709

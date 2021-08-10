@@ -1,0 +1,3 @@
+<profiles version="1">
+ <profile speeds="cpu-used=2;cpu-used=3;cpu-used=4;cpu-used=5" category="Generic (HD for web, mobile devices...)" name="vaapi" extension="mkv" qualities="15,45" args="vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=%quality acodec=flac" defaultquality="0"/>
+</profiles>

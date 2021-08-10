@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="1" id-counter="253091" name-counter="13" event-counter="13747" vca-counter="1">
+<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="1" id-counter="257028" name-counter="13" event-counter="13830" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -70,13 +70,16 @@
   <Metadata/>
   <Sources>
     <Source name="mic-01-mono-1.wav" type="audio" flags="" id="247824" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
+    <Source name="mic-01-mono-2.wav" type="audio" flags="" id="255390" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="mic-01-mono-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="192784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="248098" type="audio" first-edit="nothing" source-0="247824" master-source-0="247824" channels="1"/>
+    <Region name="mic-01-mono-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="192784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="248106" type="audio" first-edit="nothing" source-0="247824" master-source-0="247824" channels="1"/>
+    <Region name="mic-01-mono-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="153872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="255687" type="audio" first-edit="nothing" source-0="255390" master-source-0="255390" channels="1"/>
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="245579" name="session" start="0" end="192783" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="245579" name="session" start="0" end="192784" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -136,7 +139,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="245591" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.084326624870300293"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.13657373189926147"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -1090,7 +1093,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Gate_Mono_gm55-12.lv2/gm55-12.ttl" last-preset-label="gm55-12" parameter-changed-since-last-preset="0" state-dir="state3">
+        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Gate_Mono_gm55-12.lv2/gm55-12.ttl" last-preset-label="gm55-12" parameter-changed-since-last-preset="1" state-dir="state3">
           <Port symbol="enabled" value="1"/>
           <Port symbol="g_in" value="1"/>
           <Port symbol="g_out" value="1"/>
@@ -2076,31 +2079,31 @@
     <Playlist id="2384" name="desktop.1" type="audio" orig-track-id="2342" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="2928" name="from-caller" type="audio" orig-track-id="2886" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="91598" name="mic-01-mono" type="audio" orig-track-id="91236" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="mic-01-mono-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="192784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="248106" type="audio" first-edit="nothing" source-0="247824" master-source-0="247824" channels="1">
+      <Region name="mic-01-mono-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="153872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="255695" type="audio" first-edit="nothing" source-0="255390" master-source-0="255390" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="248107" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="255696" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="248108" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="255697" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="248109" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="255698" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="248110" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="255699" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -2167,7 +2170,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="681" y-size="491"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="1171" y-off="455" x-size="620" y-size="716"/>
-      <Window name="audio-midi-setup" visible="0" x-off="492" y-off="446" x-size="588" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="492" y-off="169" x-size="588" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="1197" y-off="70" x-size="361" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

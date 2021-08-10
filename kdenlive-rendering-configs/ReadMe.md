@@ -15,3 +15,12 @@ vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=%quality acodec=flac
 # Preview renderint
 
 vf=format=nv12|vaapi,hwupload,scale_vaapi=w=1280:h=720 vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=28
+
+
+# config files are in folder share
+
+//home/apham/.local/share/kdenlive/
+
+/home/apham/.config/kdenlive-appimagerc
+
+kdenlive-layoutsrc
