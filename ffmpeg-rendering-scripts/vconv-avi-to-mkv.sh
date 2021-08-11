@@ -5,4 +5,4 @@ format=mkv
 
 echo "ffmpeg -i $1 -vcodec copy -acodec copy ${filename}.${format}"
 
-ffmpeg -i $1 -vcodec copy -acodec copy ${filename}.${format}
+ffmpeg -fflags +genpts -i $1 -vcodec copy -acodec copy ${filename}.${format}

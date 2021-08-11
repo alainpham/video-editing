@@ -3,7 +3,7 @@ extension="${1##*.}"
 filename="${1%.*}"
 #1080p 3904k
 #720p  2264k
-bitrate=${2:-2264}
+bitrate=${2:-1104}
 ab=${3:-96}
 format=${4:-mp4}
 width=${5:-1280}

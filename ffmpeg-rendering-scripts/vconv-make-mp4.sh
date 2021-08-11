@@ -5,4 +5,4 @@ format=mp4
 
 echo "ffmpeg -i $1 -vcodec copy -acodec copy ${filename}.${format}"
 
-ffmpeg -i $1 -vcodec copy -acodec flac ${filename}.${format}
+ffmpeg -i $1 -vcodec copy -acodec copy ${filename}.${format}

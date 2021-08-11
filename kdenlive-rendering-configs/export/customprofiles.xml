@@ -1,3 +1,4 @@
 <profiles version="1">
- <profile speeds="cpu-used=2;cpu-used=3;cpu-used=4;cpu-used=5" category="Generic (HD for web, mobile devices...)" name="vaapi" extension="mkv" qualities="15,45" args="vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=%quality acodec=flac" defaultquality="0"/>
+ <profile speeds="cpu-used=2;cpu-used=3;cpu-used=4;cpu-used=5" category="Generic (HD for web, mobile devices...)" name="vaapi" extension="mkv" qualities="14,15,17,21,23,28" args="vaapi_device=/dev/dri/renderD128 vcodec=h264_vaapi qp=%quality acodec=flac" defaultquality="0"/>
+ <profile speeds="cpu-used=2;cpu-used=3;cpu-used=4;cpu-used=5" category="Generic (HD for web, mobile devices...)" name="true-lossless" extension="mkv" args="f=matroska preset=ultrafast vcodec=libx264 pix_fmt=yuv444p crf=0 coder=ac g=25 acodec=pcm_f32le"/>
 </profiles>
