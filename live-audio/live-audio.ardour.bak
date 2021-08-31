@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="0" id-counter="258457" name-counter="13" event-counter="14016" vca-counter="1">
+<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="0" id-counter="258465" name-counter="13" event-counter="14040" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -82,10 +82,12 @@
     <Region name="mic-01-mono-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="138512" position="185856" beat="7.7439999999999998" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258363" type="audio" first-edit="nothing" source-0="258061" master-source-0="258061" channels="1"/>
     <Region name="mic-01-mono-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="150800" position="170496" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258433" type="audio" first-edit="nothing" source-0="258377" master-source-0="258377" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="91236" control="0" order="3"/>
+  </Selection>
   <Locations>
     <Location id="245579" name="session" start="170496" end="328975" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="258393" name="Loop" start="184320" end="358159" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="258393" name="Loop" start="172032" end="318223" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -1022,7 +1024,7 @@
         <Controllable name="Residual listen" id="91287" flags="Toggle" value="0" parameter="9" symbol="Residual_listen"/>
         <Controllable name="hidden" id="91288" flags="Toggle" value="1" parameter="10" symbol="enable"/>
       </Processor>
-      <Processor id="171227" name="a-Amplifier" active="1" user-latency="0" type="luaproc" unique-id="10845fe3e9430f11fe229b9d7a032f76f543b4a4" count="1" custom="0">
+      <Processor id="171227" name="a-Amplifier" active="0" user-latency="0" type="luaproc" unique-id="10845fe3e9430f11fe229b9d7a032f76f543b4a4" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-0" id="246017" interpolation-style="Linear" state="Off"/>
         </Automation>
@@ -1442,7 +1444,7 @@
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-boomy.lv2/gm55-boomy.ttl" last-preset-label="gm55-boomy" parameter-changed-since-last-preset="1" state-dir="state3">
-          <Port symbol="enabled" value="0"/>
+          <Port symbol="enabled" value="1"/>
           <Port symbol="mode" value="1"/>
           <Port symbol="g_in" value="1"/>
           <Port symbol="g_out" value="1"/>
@@ -1639,7 +1641,7 @@
           <Port symbol="mk_7" value="2.2387211322784424"/>
           <Port symbol="hue_7" value="0.875"/>
         </lv2>
-        <Controllable name="Enabled" id="110656" flags="Toggle" value="0" parameter="2" symbol="enabled"/>
+        <Controllable name="Enabled" id="110656" flags="Toggle" value="1" parameter="2" symbol="enabled"/>
         <Controllable name="Compressor mode" id="110658" flags="" value="1" parameter="3" symbol="mode"/>
         <Controllable name="Input gain" id="110660" flags="" value="1" parameter="4" symbol="g_in"/>
         <Controllable name="Output gain" id="110662" flags="" value="1" parameter="5" symbol="g_out"/>
@@ -2207,7 +2209,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="643" y-size="499"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="1171" y-off="455" x-size="620" y-size="716"/>
-      <Window name="audio-midi-setup" visible="0" x-off="2412" y-off="586" x-size="588" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="2200" y-off="450" x-size="588" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="1197" y-off="70" x-size="361" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -2249,7 +2251,7 @@
       <Window name="P-91236-171227" visible="0" x-off="1704" y-off="868" x-size="771" y-size="238" custom-ui="1"/>
       <Window name="P-91236-121028" visible="0" x-off="2992" y-off="169" x-size="1245" y-size="710" custom-ui="1"/>
       <Window name="P-91236-111277" visible="0" x-off="2021" y-off="616" x-size="1205" y-size="388" custom-ui="1"/>
-      <Window name="P-91236-111307" visible="1" x-off="3000" y-off="598" x-size="1106" y-size="758" custom-ui="1"/>
+      <Window name="P-91236-111307" visible="0" x-off="3000" y-off="598" x-size="1106" y-size="758" custom-ui="1"/>
       <Window name="P-91236-176451" visible="0" x-off="2040" y-off="420" x-size="960" y-size="547" custom-ui="1"/>
       <Window name="P-91236-91556" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-91236-93861" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
