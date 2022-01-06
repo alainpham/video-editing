@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="0" id-counter="265389" name-counter="13" event-counter="14084" vca-counter="1">
+<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="0" id-counter="266867" name-counter="13" event-counter="14087" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -86,7 +86,9 @@
     <Region name="mic-01-mono-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="36112" position="202752" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265333" type="audio" first-edit="nothing" source-0="264980" master-source-0="264980" channels="1"/>
     <Region name="mic-01-mono-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="110864" position="370176" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265365" type="audio" first-edit="nothing" source-0="265356" master-source-0="265356" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="13927" control="0" order="0"/>
+  </Selection>
   <Locations>
     <Location id="245579" name="session" start="170496" end="328975" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="258393" name="Loop" start="172032" end="318223" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
@@ -115,8 +117,8 @@
           <Connection other="system:playback_2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="64" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="64" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="66" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="245595" interpolation-style="Discrete" state="Off"/>
@@ -149,7 +151,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="245591" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.079969428479671478"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.044112734496593475"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -579,8 +581,8 @@
           <Connection other="speaker:playback_2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="13937" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="13937" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="13939" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
         <AutomationList automation-id="solo" id="245789" interpolation-style="Discrete" state="Off"/>

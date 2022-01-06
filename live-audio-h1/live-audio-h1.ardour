@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="live-audio" sample-rate="48000" end-is-free="0" id-counter="265389" name-counter="13" event-counter="14084" vca-counter="1">
+<Session version="3002" name="live-audio-h1" sample-rate="48000" end-is-free="0" id-counter="261423" name-counter="13" event-counter="14075" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -69,27 +69,27 @@
   </Config>
   <Metadata/>
   <Sources>
-    <Source name="mic-01-mono-1.wav" type="audio" flags="" id="247824" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
-    <Source name="mic-01-mono-2.wav" type="audio" flags="" id="255390" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
-    <Source name="mic-01-mono-3.wav" type="audio" flags="" id="258061" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
-    <Source name="mic-01-mono-4.wav" type="audio" flags="" id="258377" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
-    <Source name="mic-01-mono-5.wav" type="audio" flags="" id="264980" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
-    <Source name="mic-01-mono-6.wav" type="audio" flags="" id="265356" captured-for="mic-01-mono" channel="0" origin="" gain="1"/>
+    <Source name="mic-01-mono-1.wav" type="audio" flags="" id="247824" captured-for="mic-01-mono" channel="0" origin="mic-01-mono-1.wav" gain="1"/>
+    <Source name="mic-01-mono-2.wav" type="audio" flags="" id="255390" captured-for="mic-01-mono" channel="0" origin="mic-01-mono-2.wav" gain="1"/>
+    <Source name="mic-01-mono-3.wav" type="audio" flags="" id="258061" captured-for="mic-01-mono" channel="0" origin="mic-01-mono-3.wav" gain="1"/>
+    <Source name="mic-01-mono-4.wav" type="audio" flags="" id="258377" captured-for="mic-01-mono" channel="0" origin="mic-01-mono-4.wav" gain="1"/>
+    <Source name="mic-01-mono-5.wav" type="audio" flags="" id="259895" captured-for="mic-01-mono" channel="0" origin="mic-01-mono-5.wav" gain="1"/>
   </Sources>
   <Regions>
     <Region name="mic-01-mono-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="192784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="248098" type="audio" first-edit="nothing" source-0="247824" master-source-0="247824" channels="1"/>
     <Region name="mic-01-mono-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="192784" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="248106" type="audio" first-edit="nothing" source-0="247824" master-source-0="247824" channels="1"/>
     <Region name="mic-01-mono-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="153872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="255687" type="audio" first-edit="nothing" source-0="255390" master-source-0="255390" channels="1"/>
+    <Region name="mic-01-mono-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="153872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="255695" type="audio" first-edit="nothing" source-0="255390" master-source-0="255390" channels="1"/>
     <Region name="mic-01-mono-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="138512" position="185856" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258355" type="audio" first-edit="nothing" source-0="258061" master-source-0="258061" channels="1"/>
     <Region name="mic-01-mono-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="138512" position="185856" beat="7.7439999999999998" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258363" type="audio" first-edit="nothing" source-0="258061" master-source-0="258061" channels="1"/>
     <Region name="mic-01-mono-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="150800" position="170496" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258433" type="audio" first-edit="nothing" source-0="258377" master-source-0="258377" channels="1"/>
-    <Region name="mic-01-mono-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="36112" position="202752" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265333" type="audio" first-edit="nothing" source-0="264980" master-source-0="264980" channels="1"/>
-    <Region name="mic-01-mono-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="110864" position="370176" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265365" type="audio" first-edit="nothing" source-0="265356" master-source-0="265356" channels="1"/>
+    <Region name="mic-01-mono-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="150800" position="170496" beat="7.1040000000000001" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258441" type="audio" first-edit="nothing" source-0="258377" master-source-0="258377" channels="1"/>
+    <Region name="mic-01-mono-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="274704" position="72192" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="259935" type="audio" first-edit="nothing" source-0="259895" master-source-0="259895" channels="1"/>
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="245579" name="session" start="170496" end="328975" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="258393" name="Loop" start="172032" end="318223" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="245579" name="session" start="72192" end="328975" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="258393" name="Loop" start="98304" end="328975" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -149,7 +149,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="245591" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.079969428479671478"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.19374480843544006"/>
       </Processor>
       <Processor id="87" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_balance" linked-to-route="1"/>
@@ -618,7 +618,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="245785" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="13931" flags="GainLike" value="0.28398284316062927"/>
+        <Controllable name="gaincontrol" id="13931" flags="GainLike" value="0.062458876520395279"/>
       </Processor>
       <Processor id="13960" name="dock-master" active="1" user-latency="0" own-input="1" own-output="0" output="dock-master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -921,6 +921,7 @@
       <IO name="mic-01-mono" id="91237" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="mic-01-mono/audio_in 1">
           <Connection other="system:capture_1"/>
+          <Connection other="system:capture_2"/>
         </Port>
       </IO>
       <IO name="mic-01-mono" id="91238" direction="Output" default-type="audio" user-latency="0">
@@ -950,7 +951,7 @@
         <AutomationList automation-id="monitor" id="245989" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="91582" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="91582" flags="" value="0.4166666567325592"/>
         <Controllable name="pan-width" id="91583" flags="" value="0"/>
         <Controllable name="pan-elevation" id="91584" flags="" value="0"/>
         <Controllable name="pan-frontback" id="91585" flags="" value="0"/>
@@ -1001,7 +1002,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="file:///home/apham/.lv2/Noise_repellent_gm55-full.lv2/gm55-full.ttl" last-preset-label="gm55-full" parameter-changed-since-last-preset="1" state-dir="state19">
+        <lv2 last-preset-uri="file:///home/apham/.lv2/Noise_repellent_gm55-full.lv2/gm55-full.ttl" last-preset-label="gm55-full" parameter-changed-since-last-preset="1" state-dir="state20">
           <Port symbol="reduction" value="8"/>
           <Port symbol="offset" value="0"/>
           <Port symbol="release" value="150"/>
@@ -1445,7 +1446,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_gm55-boomy.lv2/gm55-boomy.ttl" last-preset-label="gm55-boomy" parameter-changed-since-last-preset="1" state-dir="state3">
+        <lv2 last-preset-uri="file:///home/apham/.lv2/LSP_Multiband_Compressor_Mono_x8_h1.lv2/h1.ttl" last-preset-label="h1" parameter-changed-since-last-preset="1" state-dir="state3">
           <Port symbol="enabled" value="1"/>
           <Port symbol="mode" value="1"/>
           <Port symbol="g_in" value="1"/>
@@ -1949,7 +1950,7 @@
           <Panner uri="http://ardour.org/plugin/panner_1in2out" type="Mono to Stereo Panner"/>
         </PannerShell>
         <Pannable>
-          <Controllable name="pan-azimuth" id="91582" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="91582" flags="" value="0.4166666567325592"/>
           <Controllable name="pan-width" id="91583" flags="" value="0"/>
           <Controllable name="pan-elevation" id="91584" flags="" value="0"/>
           <Controllable name="pan-frontback" id="91585" flags="" value="0"/>
@@ -1972,7 +1973,7 @@
       <Processor id="91580" name="mic-01-mono" active="1" user-latency="0" own-input="1" own-output="0" output="mic-01-mono" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="91582" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="91582" flags="" value="0.4166666567325592"/>
           <Controllable name="pan-width" id="91583" flags="" value="0"/>
           <Controllable name="pan-elevation" id="91584" flags="" value="0"/>
           <Controllable name="pan-frontback" id="91585" flags="" value="0"/>
@@ -2089,124 +2090,31 @@
     <Playlist id="2384" name="desktop.1" type="audio" orig-track-id="2342" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="2928" name="from-caller" type="audio" orig-track-id="2886" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="91598" name="mic-01-mono" type="audio" orig-track-id="91236" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="mic-01-mono-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="153872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="255695" type="audio" first-edit="nothing" source-0="255390" master-source-0="255390" channels="1">
+      <Region name="mic-01-mono-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="274704" position="72192" beat="3.008" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="259943" type="audio" first-edit="nothing" source-0="259895" master-source-0="259895" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="255696" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="259944" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="255697" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="259945" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="255698" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="259946" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="255699" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="mic-01-mono-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="150800" position="170496" beat="7.1040000000000001" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="258441" type="audio" first-edit="nothing" source-0="258377" master-source-0="258377" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="258442" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="258443" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="258444" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="258445" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="mic-01-mono-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="36112" position="202752" beat="8.4480000000000004" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265341" type="audio" first-edit="nothing" source-0="264980" master-source-0="264980" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="265342" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="265343" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="265344" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="265345" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-      <Region name="mic-01-mono-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="110864" position="370176" beat="15.423999999999999" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="265373" type="audio" first-edit="nothing" source-0="265356" master-source-0="265356" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="265374" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="265375" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="265376" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="265377" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="259947" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
@@ -2273,7 +2181,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="643" y-size="499"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="1171" y-off="455" x-size="620" y-size="716"/>
-      <Window name="audio-midi-setup" visible="0" x-off="406" y-off="0" x-size="588" y-size="430"/>
+      <Window name="audio-midi-setup" visible="0" x-off="2057" y-off="0" x-size="588" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="1197" y-off="70" x-size="361" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

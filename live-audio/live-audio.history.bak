@@ -313,4 +313,13 @@
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
+  <UndoTransaction tv-sec="1638721498" tv-usec="78925" name="capture">
+    <StatefulDiffCommand obj-id="91598" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="265341"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
 </UndoHistory>
