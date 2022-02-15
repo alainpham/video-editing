@@ -1,5 +1,5 @@
 gain=${1:-30}
-wb=${2:-4800}
+wb=${2:-3500}
 cam_list="video0 video2 video4 video6"
 
 for chan in $cam_list

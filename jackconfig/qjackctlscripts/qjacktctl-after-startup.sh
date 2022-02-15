@@ -15,4 +15,4 @@ nohup alsa_out -dhw:dock -j'speaker' -p2048 -n4 &
  #nohup zita-j2a -S  -r 48000 -p 1024 -d hw:Speaker >/dev/null 2>&1 &
  #nohup zita-j2a -S  -r 48000 -p 1024 -d hw:dockr >/dev/null 2>&1 &
 sleep 4
-nohup ardour5 /home/workdrive/TAZONE/WORKSPACES/ws-video/video-production/live-audio/ >/dev/null 2>&1 &
+nohup ardour /home/workdrive/TAZONE/WORKSPACES/ws-video/video-production/live-audio/ >/dev/null 2>&1 &
